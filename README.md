@@ -1,3 +1,5 @@
+Intro: [ASCII Posts](../../wiki/ASCII-Posts)
+
 Prerequisities:
 - Joplin with Web Clipper server enabled
 - `requests` Python package
