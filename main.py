@@ -36,8 +36,7 @@ we have 2 types (sets) of notes:
 - notes that are published in full
 """
 
-types = [dict(suffix="", delimiters=True),
-         dict(suffix=":full", delimiters=False)]
+types = [dict(suffix="", delimiters=True), dict(suffix=":full", delimiters=False)]
 
 for type in types:
     # first we need to find the tag by name to get its ID
@@ -47,7 +46,8 @@ for type in types:
 
     # find posts
     notes = client.get(
-        f"/tags/{tag_info['id']}/notes", params=dict(fields="body,id,title,updated_time")
+        f"/tags/{tag_info['id']}/notes",
+        params=dict(fields="body,id,title,updated_time"),
     )
     # print(json.dumps(notes, indent=2))
     assert notes["has_more"] is False
@@ -74,7 +74,7 @@ for type in types:
 
         # post = post.replace("<ascii-posts:post-list/>", post_list_md)
 
-        filename = note["title"].replace("/", "∕")  # use alternative slash in file name
+        filename = note["title"].replace("/", "\u29F8")  # use alternative slash in file name
 
         assert "/" not in filename
         assert "\\" not in filename
