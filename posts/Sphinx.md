@@ -1,0 +1,34 @@
+---
+layout: post
+render_with_liquid: false
+date: 2024-01-03
+title: Sphinx
+unlisted: true
+---
+
+Good looking theme: <https://github.com/pradyunsg/furo>
+
+- example: <https://python-gitlab.readthedocs.io/>
+- huge fonts though, look at
+  <https://github.com/pradyunsg/furo/discussions/385>
+
+Q: How to serve live preview on Windows without going crazy? A: Use WSL
+and then it's straightforward
+
+Q: Example of Sphinx-\>GitLab pages CI?
+
+Q: Example of Sphinx-\>GitHub Pages CI? A:
+<https://github.com/mcejp/propel/blob/master/.github/workflows/pages.yaml>
+
+### Alternatives
+
+- Sphinx (<https://docs.kernel.org/>)
+- GitHub/GitLab Wiki? Is this usable as static site generator?
+- mdBook (<https://doc.rust-lang.org/book/>,
+  <https://docs.hyperdeck.io/>)
+- mkdocs super simple?
+- GitBook/HonKit
+- Any wysiwyg?
+- hugo
+- "one of the main reasons why we selected docusaurus is because of the
+  search engine, far better compared with the mkdocs."
