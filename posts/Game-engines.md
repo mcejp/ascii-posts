@@ -7,15 +7,10 @@ unlisted: true
 ---
 
 - Minimalist! <https://github.com/raysan5/raylib>
-
 - <https://wiki.ryzom.dev/>
-
 - <https://github.com/defold/defold/>
-
 - <https://bevyengine.org/>
-
 - <https://github.com/clibequilibrium/EquilibriumEngine>
-
 - FlaxEngine
 
 Renderers:
