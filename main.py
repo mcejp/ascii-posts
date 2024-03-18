@@ -1,5 +1,7 @@
+import argparse
+import datetime
 from pathlib import Path
-from subprocess import check_call
+from subprocess import check_call, check_output
 import tomllib
 
 import requests
@@ -17,10 +19,14 @@ class JoplinClient:
         return requests.get(req.url).json()
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument("out_dir", type=Path)
+args = parser.parse_args()
+
 with open("config.toml", "rb") as f:
     config = tomllib.load(f)
 
-out_dir = Path("out")
+out_dir = args.out_dir
 client = JoplinClient(port=config["port"], token=config["token"])
 
 # clean output directory (we always rebuild the entire tree)
@@ -37,6 +43,7 @@ we have 2 types (sets) of notes:
 """
 
 types = [dict(suffix="", delimiters=True), dict(suffix=":full", delimiters=False)]
+index = []
 
 for type in types:
     # first we need to find the tag by name to get its ID
@@ -47,19 +54,18 @@ for type in types:
     # find posts
     notes = client.get(
         f"/tags/{tag_info['id']}/notes",
-        params=dict(fields="body,id,title,updated_time"),
+        params=dict(fields="body,id,title,user_updated_time"),
     )
     # print(json.dumps(notes, indent=2))
     assert notes["has_more"] is False
 
     # build post list
     # TODO: sort by timestamp
-    # def format_date(timestamp): return datetime.datetime.fromtimestamp(timestamp / 1000).date().isoformat()
-    # post_list_md = "\n".join(f"- {note['title']} (updated {format_date(note['updated_time'])})" for note in notes["items"])
+    def format_date(timestamp): return datetime.datetime.fromtimestamp(timestamp / 1000).date().isoformat()
 
     # export markdown & parse
     for note in notes["items"]:
-        # print(json.dumps(note, indent=2))
+        # import json; print(json.dumps(note, indent=2))
 
         if type["delimiters"]:
             lines: list[str] = note["body"].split("\n")
@@ -74,13 +80,57 @@ for type in types:
 
         # post = post.replace("<ascii-posts:post-list/>", post_list_md)
 
-        filename = note["title"].replace("/", "\u29F8")  # use alternative slash in file name
+        #post = post.replace(" -- ", "&mdash;")          # this breaks commands in PDF topic
+
+        # slug-ify filename
+        def slugify(filename: str):
+            filename = filename.replace(" ", "-")
+            filename = filename.replace("/", "-")
+            return filename
+    
+        filename = slugify(note["title"])
 
         assert "/" not in filename
         assert "\\" not in filename
+        assert filename not in {"", ".", ".."}
+
+        # Necessary in order to linkify URLs
+        post = check_output(["pandoc", "-f", "gfm", "-t", "gfm"],
+                            input=post.strip(),
+                            text=True)
+
+        note["filename"] = filename
+        index.append(dict(title=note['title'],
+                          url=f"posts/{note['filename']}.html",
+                          user_updated_time=note['user_updated_time']))
 
         with open(out_dir / f"{filename}.md", "wt") as f:
-            f.write(post.strip() + "\n")
+            f.write(f"""\
+---
+layout: post
+render_with_liquid: false
+date: {format_date(note['user_updated_time'])}
+title: {note["title"]}
+unlisted: true
+---
+
+""" + post.strip() + "\n")
+
+    post_list_md = "\n".join(f"|[{note['title']}]({note['url']})|{format_date(note['user_updated_time'])}|"
+                             for note in sorted(index,
+                                                key=lambda note: note['user_updated_time'],
+                                                reverse=True))
+
+    with open(out_dir / f"../index.md", "wt") as f:
+        f.write(f"""\
+---
+layout: post
+---
+
+|Title|Last updated|
+|-----|------------|
+{post_list_md}
+""")
 
 check_call("git add -A", shell=True, cwd=out_dir)
 check_call("git commit -m Update", shell=True, cwd=out_dir)
