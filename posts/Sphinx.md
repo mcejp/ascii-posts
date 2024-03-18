@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2024-03-18
 title: Sphinx
 unlisted: true
 ---
@@ -24,6 +24,7 @@ Q: Example of Sphinx-\>GitHub Pages CI? A:
 
 - Sphinx (<https://docs.kernel.org/>)
 - GitHub/GitLab Wiki? Is this usable as static site generator?
+- [VitePress](https://vitepress.dev)
 - mdBook (<https://doc.rust-lang.org/book/>,
   <https://docs.hyperdeck.io/>)
 - mkdocs super simple?

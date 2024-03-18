@@ -4,7 +4,8 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
-|[ASCII Posts](posts/ASCII-Posts.html)|2024-03-17|
+|[Sphinx](posts/Sphinx.html)|2024-03-18|
+|[ASCII Posts](posts/ASCII-Posts.html)|2024-03-18|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
 |[Game engines](posts/Game-engines.html)|2024-02-29|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
@@ -34,7 +35,6 @@ layout: post
 |[Libraries](posts/Libraries.html)|2024-01-03|
 |[Load testing](posts/Load-testing.html)|2024-01-03|
 |[Small compilers](posts/Small-compilers.html)|2024-01-03|
-|[Sphinx](posts/Sphinx.html)|2024-01-03|
 |[DOS programming](posts/DOS-programming.html)|2024-01-03|
 |[ffmpeg](posts/ffmpeg.html)|2023-12-10|
 |[Vue](posts/Vue.html)|2023-09-28|
