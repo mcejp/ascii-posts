@@ -4,6 +4,8 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
+|[Jekyll tips & tricks](posts/Jekyll-tips-&-tricks.html)|2024-03-26|
+|[Documenting projects](posts/Documenting-projects.html)|2024-03-26|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[ASCII Posts](posts/ASCII-Posts.html)|2024-03-20|
 |[Sphinx](posts/Sphinx.html)|2024-03-18|
