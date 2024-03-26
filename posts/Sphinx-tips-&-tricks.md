@@ -1,8 +1,8 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-18
-title: Sphinx
+date: 2024-03-26
+title: Sphinx tips & tricks
 unlisted: true
 ---
 
@@ -33,3 +33,28 @@ Q: Example of Sphinx-\>GitHub Pages CI? A:
 - hugo
 - "one of the main reasons why we selected docusaurus is because of the
   search engine, far better compared with the mkdocs."
+
+### GitLab: Publish docs on tag push, use tag name as version
+
+#### .gitlab-ci.yml
+
+    my_job:
+      (...)
+      only:
+        - tags
+
+#### config.py
+
+    import os
+
+    (...)
+
+    version = os.getenv("CI_COMMIT_TAG", default=None)
+    release = version
+
+    (...)
+
+    # This is the default, but just to be sure:
+    # html_theme_options = {
+    #     'display_version': True,
+    # }

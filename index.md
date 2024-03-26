@@ -4,11 +4,10 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
-|[Jekyll tips & tricks](posts/Jekyll-tips-&-tricks.html)|2024-03-26|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
 |[Documenting projects](posts/Documenting-projects.html)|2024-03-26|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[ASCII Posts](posts/ASCII-Posts.html)|2024-03-20|
-|[Sphinx](posts/Sphinx.html)|2024-03-18|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
 |[Game engines](posts/Game-engines.html)|2024-02-29|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
