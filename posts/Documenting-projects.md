@@ -14,7 +14,7 @@ in organizations like [CERN](https://home.cern/), where many people come
 on relatively short fixed-term contracts, and face-to-face knowledge
 transfer doesn't always work out.
 
-But documentation is so often misunderstood as a mere carrier of
+But documentation is so often misunderstood as a mere vehicle for
 information. That couldn't be further from the truth! For one, writing
 documentation leads you to explain the reasoning behind your choices,
 and thus challenge the implicit assumptions you made along the way (as
