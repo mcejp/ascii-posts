@@ -4,10 +4,10 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
-|[Documenting projects](posts/Documenting-projects.html)|2024-03-26|
+|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-03-26|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
-|[ASCII Posts](posts/ASCII-Posts.html)|2024-03-20|
+|[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-03-20|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
 |[Game engines](posts/Game-engines.html)|2024-02-29|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
@@ -18,7 +18,7 @@ layout: post
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-01-26|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-01-26|
-|[Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
 |[Serverless](posts/Serverless.html)|2024-01-12|
 |[Low-code](posts/Low-code.html)|2024-01-12|
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|
