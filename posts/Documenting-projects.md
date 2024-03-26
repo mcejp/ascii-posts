@@ -6,6 +6,39 @@ title: Documenting projects
 unlisted: true
 ---
 
+Oh no, documentation... everyone seems to hate writing it, and everyone
+seems to hate reading it (because look how poorly it is written, *of
+course*). Yet, often it can be the only way to preserve crucial
+knowledge for future generations. This effect is particularly pronounced
+in organizations like [CERN](https://home.cern/), where many people come
+on relatively short fixed-term contracts, and face-to-face knowledge
+transfer doesn't always work out.
+
+But documentation is so often misunderstood as a mere carrier of
+information. That couldn't be further from the truth! For one, writing
+documentation leads you to explain the reasoning behind your choices,
+and thus challenge the implicit assumptions you made along the way (as
+any holes in your chain of reasoning will become plainly visible). More
+than once have I witnessed someone reach an *Aha!* moment, which caused
+them to rethink fundamental assumptions in their approach to a problem,
+during the course of "just writing some docs for completeness". How they
+wished they had done that earlier!
+
+I believe that there are two keys to breaking the vicious circle of poor
+documentation leading to low engagement leading to low investment in
+documentation leading to... It starts with acquiring
+<span style="font-variant: small-caps">The Right Mindset</span>, which
+I'd argue boils down to asking yourself **who** will need **what
+information** and **when**, and using this to select the most
+appropriate **format** (or, usually, multiple formats).
+
+The second step is to select
+<span style="font-variant: small-caps">Tools Which Will Empower
+You</span> on your mission, rather than hinder your efforts. In this
+post, whose primary purpose is to serve as a cheatsheet to myself, I
+attempt to formulate my views on writing docs, and give tips about the
+tools that help me every day.
+
 ## General observations
 
 - Projects evolve, so any documentation that cannot be trivially updated
@@ -24,6 +57,9 @@ unlisted: true
 
 ## Types of documentation
 
+This cannot be emphasized enough -- use the right ~~tool~~ format for
+the job at hand!
+
 ### User guide & Developer's guide
 
 - two different audiences, but very similar process
@@ -34,10 +70,13 @@ unlisted: true
 
 #### Recommended tool: Sphinx
 
+Advantages:
+
 - natively supports Python API docs
 - C/C++ via Breathe extension
-- reST language is powerful -- but comes with a learning curve
-- high-quality themes available
+- reST language is powerful -- although this power comes with a learning
+  curve
+- high-quality themes freely available
 
 Drawbacks:
 
@@ -52,10 +91,11 @@ Examples:
 
 ### Wiki (DokuWiki, Confluence...)
 
-- excellent for planning and writing down meeting minutes
+- excellent for planning, writing down meeting minutes, drafting new
+  ideas...
 - less suitable for documenting the product itself
 
-Main strengths:
+Advantages:
 
 - global search
 - collaborative editing, WYSIWYG
@@ -84,7 +124,7 @@ Drawbacks:
 
 #### Recommended tool: LaTeX
 
-Strengths:
+Advantages:
 
 - mature feature set
   - cross-references
@@ -121,6 +161,41 @@ Examples:
 
 #### Recommended tool: Jekyll (for blog posts)
 
+### Talk / Presentation / Lecture
+
+There is a certain warmth to human speech which cannot be replicated in
+writing, no matter how skilled. A talk can be inspiring, funny, yet also
+strangely comforting and reassuring... It is a great medium for
+conveying information that is stable -- otherwise, keeping it up-to-date
+can be a challenge.
+
+Strengths:
+
+- uniqueness of the human touch
+- can be consumed somewhat passively
+
+Limitations:
+
+- very difficult to keep a recorded talk up-to-date in face of change
+- not searchable with current technology, difficult to skim a video
+
+You can find more of my opinions on this topic in [this
+post](Making-impactful-presentations.html).
+
+## Figures
+
+In LaTeX, the [TikZ](https://tikz.net/) package is essentially
+legendary... but personally, I always got too frustrated trying to use
+it (beyond just copying snippets of already working code from SO). My
+go-to is [~~draw.io~~ diagrams.net](https://app.diagrams.net/). It's a
+remarkable tool, extremely easy to get started, but surprisingly
+powerful ever for complex diagrams.
+
+I have also enjoyed using [yEd](https://www.yworks.com/products/yed)
+(but I'm never sure about its license terms). Its automatic layout
+features are particularly handy for mind-mapping, or exploring design
+spaces.
+
 ## Additional resources
 
 - [CERN English language Style
@@ -128,7 +203,7 @@ Examples:
 
 ## Opinions of other people that I might or might not agree with
 
-> ### General Guidance on Technical Writing
+> #### General Guidance on Technical Writing
 >
 > While we do not provide specific guidance on writing, in general,
 > follow the “four Cs” of technical documentation:
@@ -138,8 +213,6 @@ Examples:
 > - Concise: the document must include only what needs to be there
 > - Consistent: the document’s content and tone must be uniform within
 >   the document itself as well as with other related documents
-
-------------------------------------------------------------------------
 
 > Documentation should include:
 >
@@ -165,8 +238,6 @@ Examples:
 > --
 > [reddit.com/r/cpp/](https://www.reddit.com/r/cpp/comments/8lwmkb/which_tool_do_you_use_to_document_your_c_code/dzkde8e/),
 > emphasis mine
-
-------------------------------------------------------------------------
 
 > I very much despise the trend to write sharepoint or wiki/Confluence
 > pages as a means for software documentation. I want my documentation
