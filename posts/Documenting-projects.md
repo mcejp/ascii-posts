@@ -24,7 +24,7 @@ unlisted: true
 
 ## Types of documentation
 
-### User Guide & Developer's Guide
+### User guide & Developer's guide
 
 - two different audiences, but very similar process
 - should be *aggressively* kept up-to-date
@@ -43,14 +43,14 @@ Drawbacks:
 
 - not interconnected between projects organization-wide, usually no
   global search
-- tables in reST are not very good
+- tables in reST are... clunky
 
 Examples:
 
 - [CMake documentation](https://cmake.org/cmake/help/latest/)
 - [The Linux Kernel documentation](https://docs.kernel.org/)
 
-### Wiki
+### Wiki (DokuWiki, Confluence...)
 
 - excellent for planning and writing down meeting minutes
 - less suitable for documenting the product itself
@@ -79,8 +79,8 @@ Drawbacks:
 
 - written once and usually not updated
 - excellent place to discuss *reasoning* behind the decisions made and
-  the design process in general (but often these could just be included
-  in Developer's Guide)
+  the design process in general (although these would usually deserve to
+  be included in Developer's guide as well)
 
 #### Recommended tool: LaTeX
 
@@ -125,3 +125,49 @@ Examples:
 
 - [CERN English language Style
   Guide](https://translation-council-support-group.web.cern.ch/sites/default/files/styles/CERN%20TM%20English%20language%20style%20guide.pdf)
+
+## Opinions of other people that I might or might not agree with
+
+> ### General Guidance on Technical Writing
+>
+> While we do not provide specific guidance on writing, in general,
+> follow the “four Cs” of technical documentation:
+>
+> - Complete: the document must completely describe the subject matter
+> - Correct: the document must be factually correct
+> - Concise: the document must include only what needs to be there
+> - Consistent: the document’s content and tone must be uniform within
+>   the document itself as well as with other related documents
+
+------------------------------------------------------------------------
+
+> Documentation should include:
+>
+> - Description of what the program/library is supposed to do. What is
+>   it expected to be used for.
+> - What is the user API, how does one use the the program/library -
+>   including tutorials and examples.
+> - High level description of implementation strategy
+> - What are the design decisions
+> - What is the rationale/motivation for these decisions
+>
+> Documentation should not include:
+>
+> - Implementation details. These should be in code itself. If the code
+>   is not obvious, then either the code should be changed or comments
+>   added.
+> - Reference to any private implementation details.
+>
+> **Documentation prepration should be seen as an aid to building a
+> coherent design rather than some afterthought** to try and fix
+> something that has been made over complicated in the first place.
+>
+> --
+> [reddit.com/r/cpp/](https://www.reddit.com/r/cpp/comments/8lwmkb/which_tool_do_you_use_to_document_your_c_code/dzkde8e/),
+> emphasis mine
+
+------------------------------------------------------------------------
+
+> I very much despise the trend to write sharepoint or wiki/Confluence
+> pages as a means for software documentation. I want my documentation
+> to reside next to my source code, not at some obscure corporate URL.

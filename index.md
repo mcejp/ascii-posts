@@ -4,8 +4,8 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
-|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
 |[Documenting projects](posts/Documenting-projects.html)|2024-03-26|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[ASCII Posts](posts/ASCII-Posts.html)|2024-03-20|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
