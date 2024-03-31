@@ -47,7 +47,7 @@ index = []
 
 for type in types:
     # first we need to find the tag by name to get its ID
-    tags = client.get("/search", params=dict(query=config["tag_name"] + type["suffix"], type="tag"))
+    tags = client.get("/search", params=dict(query=config["publish_tag"] + type["suffix"], type="tag"))
     assert tags["has_more"] is False
     (tag_info,) = tags["items"]
 
@@ -66,6 +66,8 @@ for type in types:
     # export markdown & parse
     for note in notes["items"]:
         # import json; print(json.dumps(note, indent=2))
+
+        note_tags = client.get(f"/notes/{note['id']}/tags")
 
         if type["delimiters"]:
             lines: list[str] = note["body"].split("\n")
@@ -101,6 +103,7 @@ for type in types:
 
         note["filename"] = filename
         index.append(dict(title=note['title'],
+                          tags=[tag["title"] for tag in note_tags["items"]],
                           url=f"posts/{note['filename']}.html",
                           user_updated_time=note['user_updated_time']))
 
@@ -116,7 +119,13 @@ unlisted: true
 
 """ + post.strip() + "\n")
 
-    post_list_md = "\n".join(f"|[{note['title']}]({note['url']})|{format_date(note['user_updated_time'])}|"
+    def decorated_title(note):
+        if "starred_tag" in config and config["starred_tag"] in note["tags"]:
+            return "&#x2B50; " + note["title"]
+        else:
+            return note["title"]
+
+    post_list_md = "\n".join(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|"
                              for note in sorted(index,
                                                 key=lambda note: note['user_updated_time'],
                                                 reverse=True))
