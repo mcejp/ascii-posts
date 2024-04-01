@@ -2,6 +2,10 @@
 layout: post
 ---
 
+_ASCII Posts_ are snippets of my personal notes.
+They are exported periodically from my personal knowledge base.
+They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
+
 |Title|Last updated|
 |-----|------------|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-01|
