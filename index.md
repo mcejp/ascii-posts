@@ -4,6 +4,7 @@ layout: post
 
 |Title|Last updated|
 |-----|------------|
+|[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-03-31|
 |[Game engines](posts/Game-engines.html)|2024-03-27|

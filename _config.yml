@@ -30,6 +30,7 @@ github_username:  mcejp
 # Build settings
 theme: minima
 plugins:
+  - jekyll-feed     # this seems to be implied by minima, with no easy way to disable it
   - jekyll-figure
   - jekyll-seo-tag
   - jekyll-sitemap
