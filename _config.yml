@@ -30,7 +30,6 @@ github_username:  mcejp
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-figure
   - jekyll-seo-tag
   - jekyll-sitemap
