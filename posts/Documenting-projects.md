@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-26
+date: 2024-04-01
 title: Documenting projects
 unlisted: true
 ---
@@ -88,6 +88,14 @@ Examples:
 
 - [CMake documentation](https://cmake.org/cmake/help/latest/)
 - [The Linux Kernel documentation](https://docs.kernel.org/)
+
+#### Honorable mention: Jekyll
+
+I wouldn't recommend it *for this usecase* because it's less structured
+by default, but the systemd project [has done spectacular
+work](https://systemd.io/PORTABILITY_AND_STABILITY/) using it ([source
+code
+here](https://github.com/systemd/systemd/tree/8959e17d736fbdbaf7cd912f35d23ced2e261327/docs))
 
 ### Wiki (DokuWiki, Confluence...)
 
