@@ -86,7 +86,7 @@ Drawbacks:
 
 Examples:
 
-- [CMake documentation](https://cmake.org/cmake/help/latest/)
+- [CMake Reference Documentation](https://cmake.org/cmake/help/latest/)
 - [The Linux Kernel documentation](https://docs.kernel.org/)
 
 #### Honorable mention: Jekyll
@@ -211,6 +211,8 @@ spaces.
 
 ## Opinions of other people that I might or might not agree with
 
+#### Exhibit A
+
 > #### General Guidance on Technical Writing
 >
 > While we do not provide specific guidance on writing, in general,
@@ -221,6 +223,8 @@ spaces.
 > - Concise: the document must include only what needs to be there
 > - Consistent: the document’s content and tone must be uniform within
 >   the document itself as well as with other related documents
+
+#### Exhibit B
 
 > Documentation should include:
 >
@@ -246,6 +250,8 @@ spaces.
 > --
 > [reddit.com/r/cpp/](https://www.reddit.com/r/cpp/comments/8lwmkb/which_tool_do_you_use_to_document_your_c_code/dzkde8e/),
 > emphasis mine
+
+#### Exhibit C
 
 > I very much despise the trend to write sharepoint or wiki/Confluence
 > pages as a means for software documentation. I want my documentation
