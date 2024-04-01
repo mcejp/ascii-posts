@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-31
+date: 2024-04-01
 title: ASCII Posts
 unlisted: true
 ---
@@ -53,5 +53,4 @@ styling, hosted with GitHub Pages. It works like this:
 - in Joplin, line breaks are preserved, which is not standard CommonMark
   behavior
 - SEO aspects
-  - favicon
-  - markup of title page
+  - markup in front page

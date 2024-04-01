@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 _ASCII Posts_ are snippets of my personal notes.
@@ -8,10 +8,10 @@ They are published in the hope that they may be of use to someone, without requi
 
 |Title|Last updated|
 |-----|------------|
+|[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-01|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|
-|[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-03-31|
 |[Game engines](posts/Game-engines.html)|2024-03-27|
 |[Libraries](posts/Libraries.html)|2024-03-27|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
