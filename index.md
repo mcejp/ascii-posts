@@ -6,6 +6,8 @@ _ASCII Posts_ are snippets of my personal notes.
 They are exported periodically from my personal knowledge base.
 They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
 
+[Read more...](posts/ASCII-Posts.html)
+                
 |Title|Last updated|
 |-----|------------|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
