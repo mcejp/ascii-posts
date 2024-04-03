@@ -10,7 +10,8 @@ They are published in the hope that they may be of use to someone, without requi
                 
 |Title|Last updated|
 |-----|------------|
-|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-01|
+|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-02|
+|[UUID / GUID](posts/UUID---GUID.html)|2024-04-02|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|
@@ -23,7 +24,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-02-22|
 |[LISP](posts/LISP.html)|2024-02-22|
-|[CPLD/FPGA families by package](posts/CPLD-FPGA-families-by-package.html)|2024-02-22|
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-02-03|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-01-26|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
@@ -45,7 +45,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[enscript - printing code](posts/enscript---printing-code.html)|2024-01-03|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2024-01-03|
 |[Load testing](posts/Load-testing.html)|2024-01-03|
-|[Small compilers](posts/Small-compilers.html)|2024-01-03|
 |[DOS programming](posts/DOS-programming.html)|2024-01-03|
 |[ffmpeg](posts/ffmpeg.html)|2023-12-10|
 |[Vue](posts/Vue.html)|2023-09-28|
@@ -53,7 +52,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[Generic data container formats](posts/Generic-data-container-formats.html)|2023-06-25|
 |[PDF manipulation](posts/PDF-manipulation.html)|2022-10-24|
 |[Biome algorithm](posts/Biome-algorithm.html)|2022-02-16|
-|[UUID / GUID](posts/UUID---GUID.html)|2022-01-27|
 |[JIRA alternatives](posts/JIRA-alternatives.html)|2022-01-16|
 |[Dynamic plots](posts/Dynamic-plots.html)|2021-05-08|
 |[Transactional memory / STM](posts/Transactional-memory---STM.html)|2021-04-17|
