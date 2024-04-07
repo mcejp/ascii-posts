@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2024-04-07
 title: C++ notes
 unlisted: true
 ---
@@ -11,17 +11,12 @@ unlisted: true
 ### Reasons for C++ over C
 
 - Easier to write robust code, e.g.
-
   - better type system in general
   - `std::optional<T>` instead of `T value, bool value_valid`
   - distinction between 0 & nullptr
-
 - Simple structs are simple to use
-
 - Classes and namespaces are nice
-
 - `auto` is nice
-
 - for-iteration over containers is nice
 
 ### Talks about embedded C++
@@ -36,7 +31,8 @@ unlisted: true
   (=\> use references wherever possible)
 - Allows you to write heap of mess that nobody (including you)
   understands
-- C++ libraries require a complete-ish underlying C library
+- C++ libraries require a complete-ish implementation of the C standard
+  library underneath (this can suck on niche platforms)
 
 ## Embed any file in source code
 
@@ -51,5 +47,8 @@ Pros:
 
 Cons:
 
-- compiler can get confused due to symlinks
+- compiler can get confused due to symlinks (unless it checks i-node
+  number?)
+- if the same file exists in multiple include paths (which it
+  shouldn't), this will fail
 - not standard

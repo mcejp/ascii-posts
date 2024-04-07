@@ -1,13 +1,16 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-02-03
+date: 2024-04-04
 title: JIT / recompilation
 unlisted: true
 ---
 
-LLVM: [ORC](https://llvm.org/docs/ORCv2.html) GCC: libgccjit Might be
-also useful: libunwind
+### JIT libraries
+
+- LLVM: [ORC](https://llvm.org/docs/ORCv2.html)
+- GCC: libgccjit
+- Might be also useful: libunwind
 
 ### IR JITs
 

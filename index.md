@@ -10,8 +10,12 @@ They are published in the hope that they may be of use to someone, without requi
                 
 |Title|Last updated|
 |-----|------------|
-|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-02|
-|[UUID / GUID](posts/UUID---GUID.html)|2024-04-02|
+|[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
+|[C++ notes](posts/C++-notes.html)|2024-04-07|
+|[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-04-07|
+|[Python notes](posts/Python-notes.html)|2024-04-07|
+|[JIT / recompilation](posts/JIT---recompilation.html)|2024-04-04|
+|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-04|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|
@@ -24,7 +28,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-02-22|
 |[LISP](posts/LISP.html)|2024-02-22|
-|[JIT / recompilation](posts/JIT---recompilation.html)|2024-02-03|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-01-26|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-01-26|
@@ -40,7 +43,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[Crash reporting](posts/Crash-reporting.html)|2024-01-03|
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-01-03|
 |[Software auto-updating](posts/Software-auto-updating.html)|2024-01-03|
-|[C++ notes](posts/C++-notes.html)|2024-01-03|
 |[Bitstream dynamic rebuilding](posts/Bitstream-dynamic-rebuilding.html)|2024-01-03|
 |[enscript - printing code](posts/enscript---printing-code.html)|2024-01-03|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2024-01-03|
@@ -51,6 +53,7 @@ They are published in the hope that they may be of use to someone, without requi
 |[USB in FPGA](posts/USB-in-FPGA.html)|2023-09-26|
 |[Generic data container formats](posts/Generic-data-container-formats.html)|2023-06-25|
 |[PDF manipulation](posts/PDF-manipulation.html)|2022-10-24|
+|[Command-line interface conventions](posts/Command-line-interface-conventions.html)|2022-03-23|
 |[Biome algorithm](posts/Biome-algorithm.html)|2022-02-16|
 |[JIRA alternatives](posts/JIRA-alternatives.html)|2022-01-16|
 |[Dynamic plots](posts/Dynamic-plots.html)|2021-05-08|

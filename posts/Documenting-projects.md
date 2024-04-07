@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-02
+date: 2024-04-04
 title: Documenting projects
 unlisted: true
 ---
@@ -302,3 +302,10 @@ spaces.
 >
 > -- [API documentation \|
 > Writerside](https://www.jetbrains.com/help/writerside/api-documentation.html)
+
+#### Exhibit F
+
+> i keep detailed journals of every project i do, these days. partly
+> because i’m so scattered lately that a project might sit for years so
+> being able to pick up where i left off is the only way it will ever
+> progress. but also because writing it down helps me think about it.
