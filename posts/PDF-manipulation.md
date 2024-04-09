@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2022-10-24
+date: 2024-04-09
 title: PDF manipulation
 unlisted: true
 ---
@@ -22,3 +22,9 @@ Create empty page
 Extract pages
 
     qpdf thesis.pdf --pages . 31-38 -- extract.pdf
+
+Extract all images from a document
+([pdfimages](https://en.wikipedia.org/wiki/Pdfimages))
+
+    mkdir out
+    pdfimages -all document.pdf out

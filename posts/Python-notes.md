@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-07
+date: 2024-04-08
 title: Python notes
 unlisted: true
 ---
@@ -16,18 +16,23 @@ If we only care about 3.x: `sys.version_info >= (3, 8)`
 
 #### Human-readable file size
 
-<https://stackoverflow.com/a/1094933>
+- Jinja:
+  [filesizeformat](https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.filesizeformat)
+
+- Generic:
 
 ``` python
-def sizeof_fmt(num, suffix='B'):
-    for unit in ['','Ki','Mi','Gi','Ti','Pi','Ei','Zi']:
+# From https://stackoverflow.com/a/1094933
+def sizeof_fmt(num, suffix="B"):
+    for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
         if abs(num) < 1024.0:
-            return "%3.1f %s%s" % (num, unit, suffix)
+            return f"{num:3.1f}{unit}{suffix}"
         num /= 1024.0
-    return "%.1f %s%s" % (num, 'Yi', suffix)
+    return f"{num:.1f}Yi{suffix}"
 ```
 
-(and in Jinja?)
+- Alternative: [humanize.naturalsize(bytes, binary:
+  bool)](https://stackoverflow.com/a/15485265)
 
 #### How to join N lists?
 
@@ -47,18 +52,20 @@ Because `set()` is unordered and iteration order is randomized!
 
 ### Argparse boilerplate
 
-    import argparse
-    form pathlib import Path
+``` python
+import argparse
+form pathlib import Path
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-a', action='store_true')
-    parser.add_argument('-b', action='store_true')
-    parser.add_argument('-c', action='store_true')
-    parser.add_argument('-i', '--intval', default=4, type=int, help='an int value')
-    parser.add_argument('-f', default=3.3, type=float, help='a float value')
-    parser.add_argument('-F', '--file', default='file_that_exists', type=argparse.FileType('w'), help='a filename')
-    parser.add_argument("positional_arg", help='a string', type=Path)
-    args = parser.parse_args()
+parser = argparse.ArgumentParser()
+parser.add_argument('-a', action='store_true')
+parser.add_argument('-b', action='store_true')
+parser.add_argument('-c', action='store_true')
+parser.add_argument('-i', '--intval', default=4, type=int, help='an int value')
+parser.add_argument('-f', default=3.3, type=float, help='a float value')
+parser.add_argument('-F', '--file', default='file_that_exists', type=argparse.FileType('w'), help='a filename')
+parser.add_argument("positional_arg", help='a string', type=Path)
+args = parser.parse_args()
+```
 
 ### Baseline setup for Python package projects
 
@@ -109,6 +116,10 @@ with open(OUTPUT, "wt") as f:
   guidance](https://jinja.palletsprojects.com/en/3.0.x/templates/#template-file-extension)
   is to use either `.jinja` or nothing
 - Better to not add it, so as not to break language detection
+
+### Builtin filters reference
+
+<https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters>
 
 ## Matplotlib
 

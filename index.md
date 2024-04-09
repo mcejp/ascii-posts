@@ -2,18 +2,19 @@
 layout: default
 ---
 
-_ASCII Posts_ are snippets of my personal notes.
-They are exported periodically from my personal knowledge base.
+_ASCII Posts_ are snippets extracted from my personal knowledge base and updated periodically.
 They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
+As such, there is absolutely no guarantee of accuracy or completeness :)
 
 [Read more...](posts/ASCII-Posts.html)
                 
 |Title|Last updated|
 |-----|------------|
+|[PDF manipulation](posts/PDF-manipulation.html)|2024-04-09|
+|[Python notes](posts/Python-notes.html)|2024-04-08|
 |[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
 |[C++ notes](posts/C++-notes.html)|2024-04-07|
 |[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-04-07|
-|[Python notes](posts/Python-notes.html)|2024-04-07|
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-04-04|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-04|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
@@ -52,7 +53,6 @@ They are published in the hope that they may be of use to someone, without requi
 |[Vue](posts/Vue.html)|2023-09-28|
 |[USB in FPGA](posts/USB-in-FPGA.html)|2023-09-26|
 |[Generic data container formats](posts/Generic-data-container-formats.html)|2023-06-25|
-|[PDF manipulation](posts/PDF-manipulation.html)|2022-10-24|
 |[Command-line interface conventions](posts/Command-line-interface-conventions.html)|2022-03-23|
 |[Biome algorithm](posts/Biome-algorithm.html)|2022-02-16|
 |[JIRA alternatives](posts/JIRA-alternatives.html)|2022-01-16|
