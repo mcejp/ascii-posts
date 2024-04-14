@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-04
+date: 2024-04-09
 title: Documenting projects
 unlisted: true
 ---
@@ -309,3 +309,9 @@ spaces.
 > because i’m so scattered lately that a project might sit for years so
 > being able to pick up where i left off is the only way it will ever
 > progress. but also because writing it down helps me think about it.
+
+#### Exhibit G
+
+> Documentation is extraordinarily difficult to create. You need to
+> anticipate the potential questions and answer them and anticipate all
+> the potential perspectives and answer them from that perspective.

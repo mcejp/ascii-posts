@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-08
+date: 2024-04-09
 title: Python notes
 unlisted: true
 ---
@@ -94,6 +94,8 @@ MODEL: dict
 
 env = jinja2.Environment(
     loader=jinja2.PackageLoader(__package__),
+    # for stand-alone scripts try this:
+    #loader=jinja2.FileSystemLoader(Path(__file__).parent),
     # optional
     trim_blocks=True,
     lstrip_blocks=True)
@@ -176,11 +178,8 @@ pal = (np.frombuffer(pal_bytes, dtype=np.uint8)
 ### Image from raw bytes + palette
 
 ``` python
-pal ~ int[3][256]
-indexes ~ image W x H
-
-indexes = (np.frombuffer(pal, dtype=np.uint8)
-                  .reshape((H, W)))
+indexes = (np.frombuffer(image_bytes, dtype=np.uint8)
+             .reshape((H, W)))
 rgb = np.zeros_like(pal, shape=(indexes.shape[0],
                                 indexes.shape[1], 3))
 np.take(pal, indexes, out=rgb, axis=0)

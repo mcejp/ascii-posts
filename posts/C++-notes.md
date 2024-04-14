@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-07
+date: 2024-04-11
 title: C++ notes
 unlisted: true
 ---
@@ -37,6 +37,8 @@ unlisted: true
 ## Embed any file in source code
 
     xxd -include <filename>
+
+(discussion: <https://unix.stackexchange.com/a/176112>)
 
 ## \#pragma once
 

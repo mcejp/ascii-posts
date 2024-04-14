@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-27
+date: 2024-04-13
 title: Libraries
 unlisted: true
 ---
@@ -45,6 +45,12 @@ ZeroRPC for RPC ?
 | Serialization                        | <https://github.com/KonanM/tser>                                     |
 | SW rendering                         | <https://github.com/Vogtinator/nGL>                                  |
 | WebView                              | <https://github.com/webview/webview>                                 |
+
+#### Argument parsing
+
+- [p-ranav/argparse](https://github.com/p-ranav/argparse)
+- [cxxopts](https://github.com/jarro2783/cxxopts)
+- Boost
 
 ## Java
 
