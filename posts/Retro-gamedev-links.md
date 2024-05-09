@@ -1,10 +1,20 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-02-29
+date: 2024-04-24
 title: Retro gamedev links
 unlisted: true
 ---
+
+# 3DS
+
+- <https://bmaupin.github.io/wiki/other/3ds/3ds-debugging.html>
+
+# GBA
+
+- [Game Boy Advance tools for image and video
+  conversion](https://github.com/HorstBaerbel/GBA-image-tools) ![stars
+  badge](https://img.shields.io/github/stars/HorstBaerbel/GBA-image-tools)
 
 # NES
 
@@ -12,6 +22,9 @@ unlisted: true
 - [NEXXT is a NES graphics / level
   tool](https://frankengraphics.itch.io/nexxt)
 - [NES Assets Workshop](https://nesrocks.itch.io/naw)
+- [Pently: A music engine for NES that supports both NES playback (with
+  sound effects) and NSF](https://github.com/pinobatch/pently) ![stars
+  badge](https://img.shields.io/github/stars/pinobatch/pently)
 
 # PSX
 

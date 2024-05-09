@@ -10,10 +10,13 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
-|[Libraries](posts/Libraries.html)|2024-04-13|
-|[C++ notes](posts/C++-notes.html)|2024-04-11|
-|[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-04-11|
-|[Python notes](posts/Python-notes.html)|2024-04-09|
+|[C++ notes](posts/C++-notes.html)|2024-05-09|
+|[Libraries](posts/Libraries.html)|2024-05-03|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-04-30|
+|[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
+|[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-04-24|
+|[Python notes](posts/Python-notes.html)|2024-04-22|
+|[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-04-22|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-09|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-04-09|
 |[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
@@ -22,12 +25,9 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|
 |[Game engines](posts/Game-engines.html)|2024-03-27|
-|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-03-26|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
-|[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-02-29|
-|[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-02-22|
 |[LISP](posts/LISP.html)|2024-02-22|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-01-26|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|

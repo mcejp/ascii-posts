@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-26
+date: 2024-04-30
 title: Sphinx tips & tricks
 unlisted: true
 ---
@@ -27,7 +27,7 @@ Q: Example of Sphinx-\>GitHub Pages CI? A:
 - [VitePress](https://vitepress.dev)
 - mdBook (<https://doc.rust-lang.org/book/>,
   <https://docs.hyperdeck.io/>)
-- mkdocs super simple?
+- mkdocs (<https://hsutter.github.io/cppfront/>)
 - GitBook/HonKit
 - Any wysiwyg?
 - hugo

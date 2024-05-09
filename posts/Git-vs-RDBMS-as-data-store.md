@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-02-22
+date: 2024-04-27
 title: Git vs RDBMS as data store
 unlisted: true
 ---
@@ -30,6 +30,7 @@ Sqlite:
 
 - in Git: mostly combines disadvatages and makes a mess
 - scales pretty well
+- doesn't play nice with Dropbox/NFS
 
 Editing non-text files as text: [Example from Pixar
 (USDEdit)](https://graphics.pixar.com/usd/release/tut_helloworld.html#viewing-and-editing-usd-file-contents)

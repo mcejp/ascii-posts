@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-11
+date: 2024-04-22
 title: CMake tips & tricks
 unlisted: true
 ---
@@ -55,3 +55,13 @@ target_include_directories(my_target PRIVATE
         --binary-architecture i386 foo foo.o
 
 (see <https://unix.stackexchange.com/a/176271>)
+
+#### Dump list of symbols from largest to smallest
+
+    nm --demangle \
+       --print-size \
+       --size-sort \
+       --reverse-sort \
+       file.elf
+
+TODO CMake integration

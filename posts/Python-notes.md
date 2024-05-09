@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-09
+date: 2024-04-22
 title: Python notes
 unlisted: true
 ---
@@ -122,6 +122,27 @@ with open(OUTPUT, "wt") as f:
 ### Builtin filters reference
 
 <https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters>
+
+## Logging
+
+### Logging boilerplate
+
+``` python
+import logging
+
+logger = logging.getLogger(__name__)
+
+# logger.debug, info, warn, error...
+logger.warn("Error: %s", error)
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    ...
+```
+
+### Structured logging
+
+?
 
 ## Matplotlib
 

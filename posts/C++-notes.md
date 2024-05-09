@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-11
+date: 2024-05-09
 title: C++ notes
 unlisted: true
 ---
@@ -54,3 +54,8 @@ Cons:
 - if the same file exists in multiple include paths (which it
   shouldn't), this will fail
 - not standard
+
+## Proper modulo (rounding towards -inf)
+
+See
+<https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/divmodnote-letter.pdf>
