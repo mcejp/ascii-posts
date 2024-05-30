@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-22
+date: 2024-05-24
 title: Python notes
 unlisted: true
 ---
@@ -13,6 +13,13 @@ unlisted: true
 #### Check Python version
 
 If we only care about 3.x: `sys.version_info >= (3, 8)`
+
+#### Clean up outdated venvs after interpreter updated
+
+    find . -path \*/python3.11/site-packages \
+        -ok rm -r -- {} \;
+
+(better would be: find all `pythonX.YY` *except* a given version)
 
 #### Human-readable file size
 
@@ -167,6 +174,16 @@ Possible but complicated: <https://stackoverflow.com/a/43439132>
 ### Font size
 
     matplotlib.rcParams.update({'font.size': 22})
+
+### Ticks
+
+``` python
+from matplotlib.ticker import MultipleLocator
+
+ax.grid(which="major", alpha=0.6)
+ax.grid(which="minor", alpha=0.2)
+ax.yaxis.set_minor_locator(MultipleLocator(0.5))
+```
 
 ## Numpy
 

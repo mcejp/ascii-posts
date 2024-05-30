@@ -10,16 +10,18 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[Python notes](posts/Python-notes.html)|2024-05-24|
+|[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-05-24|
+|[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
 |[C++ notes](posts/C++-notes.html)|2024-05-09|
 |[Libraries](posts/Libraries.html)|2024-05-03|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-04-30|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-04-24|
-|[Python notes](posts/Python-notes.html)|2024-04-22|
-|[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-04-22|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-09|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-04-09|
 |[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
+|[Programming patterns](posts/Programming-patterns.html)|2024-04-07|
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-04-04|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
@@ -42,7 +44,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[ECMAScript implementations](posts/ECMAScript-implementations.html)|2024-01-03|
 |[DSL](posts/DSL.html)|2024-01-03|
 |[Crash reporting](posts/Crash-reporting.html)|2024-01-03|
-|[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-01-03|
 |[Software auto-updating](posts/Software-auto-updating.html)|2024-01-03|
 |[Bitstream dynamic rebuilding](posts/Bitstream-dynamic-rebuilding.html)|2024-01-03|
 |[enscript - printing code](posts/enscript---printing-code.html)|2024-01-03|

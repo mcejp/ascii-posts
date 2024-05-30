@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-22
+date: 2024-05-24
 title: CMake tips & tricks
 unlisted: true
 ---
@@ -55,6 +55,16 @@ target_include_directories(my_target PRIVATE
         --binary-architecture i386 foo foo.o
 
 (see <https://unix.stackexchange.com/a/176271>)
+
+#### Deep clean of build directories
+
+    find . -type d -name "cmake-build*" \
+        -exec sh -c 'cd "{}" && make clean' \;
+
+To **delete** them instead:
+
+    find . -type d -name "cmake-build*" \
+        -ok rm -r -- {} \;
 
 #### Dump list of symbols from largest to smallest
 
