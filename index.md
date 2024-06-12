@@ -10,7 +10,9 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
-|[Python notes](posts/Python-notes.html)|2024-05-24|
+|[Git](posts/Git.html)|2024-06-11|
+|[JIT / recompilation](posts/JIT---recompilation.html)|2024-06-05|
+|[Python notes](posts/Python-notes.html)|2024-06-04|
 |[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-05-24|
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
 |[C++ notes](posts/C++-notes.html)|2024-05-09|
@@ -22,7 +24,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-04-09|
 |[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
 |[Programming patterns](posts/Programming-patterns.html)|2024-04-07|
-|[JIT / recompilation](posts/JIT---recompilation.html)|2024-04-04|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-03-31|

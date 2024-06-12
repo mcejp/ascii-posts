@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-05-24
+date: 2024-06-04
 title: Python notes
 unlisted: true
 ---
@@ -213,7 +213,7 @@ pal = (np.frombuffer(pal_bytes, dtype=np.uint8)
          .reshape((-1, 3)))
 ```
 
-### Image from raw bytes + palette
+### RGB Image from raw bytes + palette
 
 ``` python
 indexes = (np.frombuffer(image_bytes, dtype=np.uint8)

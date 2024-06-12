@@ -1,13 +1,14 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-04
+date: 2024-06-05
 title: JIT / recompilation
 unlisted: true
 ---
 
 ### JIT libraries
 
+- [Xbyak](https://github.com/herumi/xbyak) looks amazing (x86)
 - LLVM: [ORC](https://llvm.org/docs/ORCv2.html)
 - GCC: libgccjit
 - Might be also useful: libunwind
@@ -32,3 +33,8 @@ unlisted: true
 ### x86-\>wasm
 
 - <https://github.com/copy/v86>
+
+### N64-\>C static recompiler
+
+- <https://github.com/N64Recomp/N64Recomp>
+  - Inspired by: <https://github.com/decompals/ido-static-recomp>
