@@ -133,9 +133,15 @@ unlisted: true
     with open(out_dir / f"../index.md", "wt") as f:
         f.write(f"""\
 ---
-layout: post
+layout: default
 ---
 
+_ASCII Posts_ are snippets extracted from my personal knowledge base and updated periodically.
+They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
+As such, there is absolutely no guarantee of accuracy or completeness :)
+
+[Read more...](posts/ASCII-Posts.html)
+                
 |Title|Last updated|
 |-----|------------|
 {post_list_md}
