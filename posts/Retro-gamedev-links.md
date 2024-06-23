@@ -1,13 +1,14 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-24
+date: 2024-06-19
 title: Retro gamedev links
 unlisted: true
 ---
 
 # 3DS
 
+- <https://github.com/mikage-emu/conan-3ds>
 - <https://bmaupin.github.io/wiki/other/3ds/3ds-debugging.html>
 
 # GBA

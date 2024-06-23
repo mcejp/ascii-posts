@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-05-24
+date: 2024-06-19
 title: CMake tips & tricks
 unlisted: true
 ---
@@ -9,6 +9,19 @@ unlisted: true
 #### Custom Python step in CMake build
 
 <https://gist.github.com/mcejp/06d225ae1620bdf0148eee6ec9db8e3b>
+
+#### Disassemble executable after build
+
+``` cmake
+set(LISTING_PATH $<TARGET_FILE:${CMAKE_PROJECT_NAME}>)
+cmake_path(REPLACE_EXTENSION LISTING_PATH ".s")
+add_custom_command(
+    TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
+    COMMAND
+        ${CMAKE_OBJDUMP} $<TARGET_FILE:${CMAKE_PROJECT_NAME}> --all-headers --disassemble > ${LISTING_PATH}
+    COMMENT
+        "Disassembling executable $<TARGET_FILE:${CMAKE_PROJECT_NAME}>")
+```
 
 #### Embed a binary file in a C++ header as span\<uint8_t\>
 

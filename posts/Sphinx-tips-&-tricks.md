@@ -1,24 +1,27 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-30
+date: 2024-06-14
 title: Sphinx tips & tricks
 unlisted: true
 ---
 
-Good looking theme: <https://github.com/pradyunsg/furo>
+Good looking theme: [Furo](https://github.com/pradyunsg/furo)
 
 - example: <https://python-gitlab.readthedocs.io/>
 - huge fonts though, look at
   <https://github.com/pradyunsg/furo/discussions/385>
 
-Q: How to serve live preview on Windows without going crazy? A: Use WSL
-and then it's straightforward
+Q: How to serve live preview on Windows without going crazy?
+
+- A: Use WSL and then it's straightforward
 
 Q: Example of Sphinx-\>GitLab pages CI?
 
-Q: Example of Sphinx-\>GitHub Pages CI? A:
-<https://github.com/mcejp/propel/blob/master/.github/workflows/pages.yaml>
+Q: Example of Sphinx-\>GitHub Pages CI?
+
+- A:
+  <https://github.com/mcejp/propel/blob/master/.github/workflows/pages.yaml>
 
 ### Alternatives
 

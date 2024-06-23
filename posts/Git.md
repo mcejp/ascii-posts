@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-06-11
+date: 2024-06-21
 title: Git
 unlisted: true
 ---
@@ -36,3 +36,5 @@ Untracked (respecting .gitignore)
 ### Spin subdirectory off into new repo
 
 This works well: <https://stackoverflow.com/a/17864475>
+
+(`git subtree` is safe, it creates a new branch)

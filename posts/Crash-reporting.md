@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2024-06-19
 title: Crash reporting
 unlisted: true
 ---
@@ -11,6 +11,8 @@ unlisted: true
 
   - successor: crashpad
     <https://chromium.googlesource.com/crashpad/crashpad/+/HEAD/doc/status.md>
+
+- Sentry (apparently being used by Aseprite, a C++ application)
 
 - <https://github.com/audacity/audacity/pull/836>
 
