@@ -10,6 +10,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
+|[Hylang](posts/Hylang.html)|2024-09-23|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-07-21|
 |[Hyflow strawman (2024)](posts/Hyflow-strawman-(2024).html)|2024-07-21|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
@@ -38,7 +40,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
 |[LISP](posts/LISP.html)|2024-02-22|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
-|[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-01-26|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
 |[Serverless](posts/Serverless.html)|2024-01-12|
 |[Low-code](posts/Low-code.html)|2024-01-12|

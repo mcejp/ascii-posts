@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-26
+date: 2024-09-23
 title: Download a playlist with ytdl-sub
 unlisted: true
 ---
