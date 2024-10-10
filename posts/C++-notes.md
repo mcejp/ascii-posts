@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-05-09
+date: 2024-10-09
 title: C++ notes
 unlisted: true
 ---
@@ -34,11 +34,25 @@ unlisted: true
 - C++ libraries require a complete-ish implementation of the C standard
   library underneath (this can suck on niche platforms)
 
+## Constants (in headers)
+
+### Strings (C++11)
+
+    constexpr char VERSION_STRING[] = "1.2.3";
+
+- constexpr implies internal linkage, so it's like "static"
+- for long strings this might not be optimal if used by multiple
+  compilation units (not sure if it will be deduplicated)
+
 ## Embed any file in source code
 
     xxd -include <filename>
 
 (discussion: <https://unix.stackexchange.com/a/176112>)
+
+## Embed version in the program binary
+
+See <https://stackoverflow.com/a/2077957>, "Like Git Does It"
 
 ## \#pragma once
 

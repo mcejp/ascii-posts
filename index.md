@@ -10,8 +10,9 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[Hylang](posts/Hylang.html)|2024-10-09|
+|[C++ notes](posts/C++-notes.html)|2024-10-09|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
-|[Hylang](posts/Hylang.html)|2024-09-23|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-07-21|
 |[Hyflow strawman (2024)](posts/Hyflow-strawman-(2024).html)|2024-07-21|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
@@ -25,7 +26,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Crash reporting](posts/Crash-reporting.html)|2024-06-19|
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-06-05|
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
-|[C++ notes](posts/C++-notes.html)|2024-05-09|
 |[Libraries](posts/Libraries.html)|2024-05-03|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-09|

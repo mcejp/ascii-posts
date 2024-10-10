@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-09-23
+date: 2024-10-09
 title: Hylang
 unlisted: true
 ---
@@ -43,6 +43,15 @@ unlisted: true
 ### Q: 2 or 4 spaces for indent?
 
 A: Official repo uses 2
+
+### Q: How to have a macro receive kwargs and propagate them into emitted code?
+
+``` hy
+;; rest-args can be any combination of positional and keyword arguments,
+;; they will be just copied over token-by-token
+(defmacro something [foo bar #* rest-args]
+  `(do-something ~foo ~bar ~@ rest-args))
+```
 
 ### Q: How to print indented S-exprs?
 
