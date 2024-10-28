@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-09
+date: 2024-10-28
 title: C++ notes
 unlisted: true
 ---
@@ -50,9 +50,21 @@ unlisted: true
 
 (discussion: <https://unix.stackexchange.com/a/176112>)
 
+### C23: \#embed
+
+(GCC 15, Clang 19)
+
+See <https://en.cppreference.com/w/c/preprocessor/embed>
+
 ## Embed version in the program binary
 
 See <https://stackoverflow.com/a/2077957>, "Like Git Does It"
+
+## Enforce exhaustive switch on enum class
+
+``` c++
+#pragma GCC diagnostic error "-Wswitch-enum"
+```
 
 ## \#pragma once
 

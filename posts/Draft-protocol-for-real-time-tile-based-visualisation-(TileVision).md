@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-15
+date: 2024-10-24
 title: Draft protocol for real-time tile-based visualisation (TileVision)
 unlisted: true
 ---
@@ -86,3 +86,12 @@ These are just plaintext messages for now.
 
 - `PAUSE`
 - `STEP`
+
+## Food for thought: JSON diff for streaming?
+
+prior art:
+
+- <https://github.com/trailofbits/graphtage?tab=readme-ov-file>
+- <https://json-delta.readthedocs.io/en/latest/>
+- <https://datatracker.ietf.org/doc/html/rfc6902>
+- <https://github.com/ottypes/json1>

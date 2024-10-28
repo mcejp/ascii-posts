@@ -10,23 +10,25 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[C++ notes](posts/C++-notes.html)|2024-10-28|
+|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-10-26|
+|[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
+|[Libraries](posts/Libraries.html)|2024-10-24|
+|[LISP](posts/LISP.html)|2024-10-24|
+|[Python notes](posts/Python-notes.html)|2024-10-24|
 |[Hylang](posts/Hylang.html)|2024-10-09|
-|[C++ notes](posts/C++-notes.html)|2024-10-09|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-07-21|
 |[Hyflow strawman (2024)](posts/Hyflow-strawman-(2024).html)|2024-07-21|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-07-21|
-|[Python notes](posts/Python-notes.html)|2024-07-21|
 |[Node-based programming](posts/Node-based-programming.html)|2024-07-19|
-|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-07-08|
 |[Git](posts/Git.html)|2024-06-21|
 |[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-06-19|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-06-19|
 |[Crash reporting](posts/Crash-reporting.html)|2024-06-19|
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-06-05|
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
-|[Libraries](posts/Libraries.html)|2024-05-03|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2024-04-09|
 |[UUID / GUID](posts/UUID---GUID.html)|2024-04-07|
@@ -37,8 +39,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Game engines](posts/Game-engines.html)|2024-03-27|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
-|[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-03-15|
-|[LISP](posts/LISP.html)|2024-02-22|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
 |[Serverless](posts/Serverless.html)|2024-01-12|

@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-05-03
+date: 2024-10-24
 title: Libraries
 unlisted: true
 ---
@@ -67,6 +67,7 @@ also: FreePlane -- professional-looking Java UI (at least on Win10)
 | purpose                  | library                                       |
 |--------------------------|-----------------------------------------------|
 | C++11-Python interfacing | <https://github.com/pybind/pybind11>          |
+| Color output             | <https://pypi.python.org/pypi/colorama>       |
 | Ninja generator          | <https://github.com/mjansson/ninja_generator> |
 | OBJ files                | <https://github.com/mjansson/obj_lib>         |
 

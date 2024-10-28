@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-02-22
+date: 2024-10-24
 title: LISP
 unlisted: true
 ---
@@ -26,7 +26,13 @@ For MCU:
 Gamedev resources:
 <https://github.com/lispgames/lispgames.github.io/wiki>
 
+Google style guide <https://google.github.io/styleguide/lispguide.xml>
+
+### Examples of use in practice
+
 Naughty Dog: <https://imgur.com/a/vm72A>
+
+At ITA: <http://lambda-the-ultimate.org/node/2491#comment-38434>
 
 Whitequark Racket/Rosette:
 
