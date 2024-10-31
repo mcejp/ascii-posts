@@ -10,13 +10,14 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[STAK VM details](posts/STAK-VM-details.html)|2024-10-31|
+|[Hylang](posts/Hylang.html)|2024-10-29|
+|[Python notes](posts/Python-notes.html)|2024-10-29|
 |[C++ notes](posts/C++-notes.html)|2024-10-28|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-10-26|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
 |[Libraries](posts/Libraries.html)|2024-10-24|
 |[LISP](posts/LISP.html)|2024-10-24|
-|[Python notes](posts/Python-notes.html)|2024-10-24|
-|[Hylang](posts/Hylang.html)|2024-10-09|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
 |[PDF manipulation](posts/PDF-manipulation.html)|2024-07-21|
 |[Hyflow strawman (2024)](posts/Hyflow-strawman-(2024).html)|2024-07-21|
