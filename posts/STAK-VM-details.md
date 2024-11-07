@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-31
+date: 2024-11-03
 title: STAK VM details
 unlisted: true
 ---
@@ -52,6 +52,7 @@ implementation code to avoid ossification (at least for now))
 - `(getlocal)` could always be referenced to stack pointer if we keep
   track of temporaries during compilation
 - `(getlocal:N)` `(getconst:N)` `(setlocal:N)` for low values of N
+- `(ret-zero)` = `(zero) (ret 1)`
 
 ## Stack layout
 

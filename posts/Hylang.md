@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-29
+date: 2024-11-01
 title: Hylang
 unlisted: true
 ---
@@ -59,4 +59,7 @@ A: Official repo uses 2
 
 ### Q: How to de/serialize dataclasses to S-exprs?
 
-(In STAK, we implemented our own)
+Our state-of-the-art -- pretty awful:
+
+- [serialize](https://github.com/mcejp/STAK/blob/main/models.hy#L69)
+- [deserialize](https://github.com/mcejp/STAK/blob/main/models.hy#L30)

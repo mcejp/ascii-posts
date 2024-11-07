@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-24
+date: 2024-11-05
 title: LISP
 unlisted: true
 ---
@@ -19,9 +19,17 @@ C++ interop: <https://news.ycombinator.com/item?id=32152462>
 
 For MCU:
 
+- [Chicken Scheme](https://www.call-cc.org/)
 - [Ferret](https://ferret-lang.org/)
-- PICOBIT
-- ULISP (CL)
+  - no integer type
+  - transpiles to C++11
+- [PICOBIT](https://github.com/stamourv/picobit)
+  - last commit in 2015
+  - bytecode + VM
+- [ULISP](http://www.ulisp.com/) (CL)
+  - has REPL
+- [Chibi-Scheme](http://synthcode.com/scheme/chibi)
+  - (John Carmack VR experiments)
 
 Gamedev resources:
 <https://github.com/lispgames/lispgames.github.io/wiki>
