@@ -10,10 +10,12 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
                 
 |Title|Last updated|
 |-----|------------|
+|[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|
+|[Python notes](posts/Python-notes.html)|2024-11-24|
+|[Software rasterizers](posts/Software-rasterizers.html)|2024-11-10|
 |[LISP](posts/LISP.html)|2024-11-05|
 |[STAK VM details](posts/STAK-VM-details.html)|2024-11-03|
 |[Hylang](posts/Hylang.html)|2024-11-01|
-|[Python notes](posts/Python-notes.html)|2024-10-29|
 |[C++ notes](posts/C++-notes.html)|2024-10-28|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2024-10-26|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
@@ -46,7 +48,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Low-code](posts/Low-code.html)|2024-01-12|
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|
 |[LVM](posts/LVM.html)|2024-01-03|
-|[Software rasterizers](posts/Software-rasterizers.html)|2024-01-03|
 |[Embedded filesystems](posts/Embedded-filesystems.html)|2024-01-03|
 |[ECMAScript implementations](posts/ECMAScript-implementations.html)|2024-01-03|
 |[DSL](posts/DSL.html)|2024-01-03|

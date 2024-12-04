@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2024-11-10
 title: Software rasterizers
 unlisted: true
 ---
@@ -14,3 +14,6 @@ unlisted: true
 - <https://github.com/Dawoodoz/DFPSR>
 - <https://github.com/EmberGL-org/EmberGL>
 - <https://github.com/C-Chads/tinygl> (Fabrice Bellard)
+  - Extended fork: <https://github.com/erysdren/TinyGL>
+- [BRender](https://blazingrender.net/)
+  - Fork: <https://github.com/BlazingRenderer/BRender>

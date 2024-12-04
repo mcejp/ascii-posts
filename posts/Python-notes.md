@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-29
+date: 2024-11-24
 title: Python notes
 unlisted: true
 ---
@@ -175,6 +175,11 @@ if __name__ == "__main__":
 - need to call multiple scatters
 - can copy color like this: `color=a._facecolors[0]` (ugh!)
 - to not break legend: only specify LABEL for one of the scatter
+
+### Colors
+
+> The default Tableau colors are available in matplotlib via the 'tab:'
+> prefix:
 
 ### Hexagonal plots
 
