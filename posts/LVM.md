@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2024-12-06
 title: LVM
 unlisted: true
 ---
@@ -15,3 +15,7 @@ unlisted: true
 Not possible with ext4:
 
     resize2fs: On-line shrinking not supported
+
+## Should use entire disk or a single partition?
+
+A: [Just use entire disk](https://serverfault.com/a/973769).

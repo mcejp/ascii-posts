@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-26
+date: 2025-03-09
 title: Jim Keller talks and interviews
 unlisted: true
 ---
@@ -19,6 +19,7 @@ unlisted: true
 | 2023-06-28 | [Andes RISC V Con 2023 Panel](https://www.youtube.com/watch?v=4vI0SQmZB_w)                                                                       | 56:29    |
 | 2023-06-09 | [Jim Keller on AI, RISC-V, Tenstorrent’s Move to Edge IP](https://youtu.be/_MrGNlXRi9M)                                                          | 48:13    |
 | 2023-09-12 | [AI Hardware w/ Jim Keller](https://www.youtube.com/watch?v=lPX1H3jW8ZQ)                                                                         | 33:28    |
+| 2024-04-23 | [Linus meets Jim Keller (Full Interview)](https://youtu.be/rfFuTgnvwgs)                                                                          | 1:09:24  |
 | 2024-07-07 | [ Endgame: Big Tech Bytes the Dust - Jim Keller, Tenstorrent, Tesla, Apple, AMD, Intel \#261 ](https://youtu.be/bSIodaEFuBI?si=JFWwDn8JglRx6VKH) | 2:53:25  |
 | 2024-07-22 | [61DAC Keynote: Jim Keller, CEO, Tenstorrent](https://www.youtube.com/watch?v=cy-9Jl666Aw)                                                       | 42:47    |
 | 2024-10-14 | [Oral History of Jim Keller](https://youtu.be/Xh8nhK7WS80)                                                                                       | 1:44:31  |

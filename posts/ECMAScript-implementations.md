@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2025-03-05
 title: ECMAScript implementations
 unlisted: true
 ---
@@ -14,7 +14,7 @@ unlisted: true
 
 - Espruino (MPL v2.0)
 
-- JerryScript (Apache License v2.0)
+- [JerryScript](https://jerryscript.net/) (Apache License v2.0)
 
 - MuJS (Affero GPL)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-06-05
+date: 2024-12-22
 title: JIT / recompilation
 unlisted: true
 ---
@@ -26,9 +26,11 @@ unlisted: true
   recompiler for PSX emulators
 - [NanoJIT](https://github.com/dibyendumajumdar/nanojit)? Unmaintained.
 
-### x86_64-\>arm64 dynarec
+### x86_64-\>arm64 recompilation
 
 - <https://github.com/ptitSeb/box64>
+- 2022-11-09: [Why is Rosetta 2
+  fast?](https://dougallj.wordpress.com/2022/11/09/why-is-rosetta-2-fast/)
 
 ### x86-\>wasm
 
@@ -38,3 +40,8 @@ unlisted: true
 
 - <https://github.com/N64Recomp/N64Recomp>
   - Inspired by: <https://github.com/decompals/ido-static-recomp>
+
+### Literature
+
+- *Virtual Machines: Versatile Platforms for Systems and Processes* by
+  Jim Smith and Ravi Nair
