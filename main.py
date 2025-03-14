@@ -119,19 +119,20 @@ unlisted: true
 
 """ + post.strip() + "\n")
 
-    def decorated_title(note):
-        if "starred_tag" in config and config["starred_tag"] in note["tags"]:
-            return "&#x2B50; " + note["title"]
-        else:
-            return note["title"]
 
-    post_list_md = "\n".join(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|"
-                             for note in sorted(index,
-                                                key=lambda note: note['user_updated_time'],
-                                                reverse=True))
+def decorated_title(note):
+    if "starred_tag" in config and config["starred_tag"] in note["tags"]:
+        return "&#x2B50; " + note["title"]
+    else:
+        return note["title"]
 
-    with open(out_dir / f"../index.md", "wt") as f:
-        f.write(f"""\
+post_list_md = "\n".join(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|"
+                         for note in sorted(index,
+                                            key=lambda note: note['user_updated_time'],
+                                            reverse=True))
+
+with open(out_dir / f"../index.md", "wt") as f:
+    f.write(f"""\
 ---
 layout: default
 ---
