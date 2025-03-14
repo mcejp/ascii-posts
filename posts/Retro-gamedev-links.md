@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-06-19
+date: 2025-03-13
 title: Retro gamedev links
 unlisted: true
 ---
@@ -16,6 +16,11 @@ unlisted: true
 - [Game Boy Advance tools for image and video
   conversion](https://github.com/HorstBaerbel/GBA-image-tools) ![stars
   badge](https://img.shields.io/github/stars/HorstBaerbel/GBA-image-tools)
+
+# NDS
+
+- [ptexconv: Simple command line DS texture and BG
+  converer](https://github.com/Garhoogin/ptexconv)
 
 # NES
 

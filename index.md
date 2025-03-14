@@ -7,9 +7,12 @@ They are published in the hope that they may be of use to someone, without requi
 As such, there is absolutely no guarantee of accuracy or completeness :)
 
 [Read more...](posts/ASCII-Posts.html)
-                
+
 |Title|Last updated|
 |-----|------------|
+|[Git](posts/Git.html)|2025-03-14|
+|[Python notes](posts/Python-notes.html)|2025-03-14|
+|[Retro gamedev links](posts/Retro-gamedev-links.html)|2025-03-13|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2025-03-09|
 |[ECMAScript implementations](posts/ECMAScript-implementations.html)|2025-03-05|
 |[Hylang](posts/Hylang.html)|2025-01-08|
@@ -17,7 +20,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[JIT / recompilation](posts/JIT---recompilation.html)|2024-12-22|
 |[LVM](posts/LVM.html)|2024-12-06|
 |[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|
-|[Python notes](posts/Python-notes.html)|2024-11-24|
 |[Software rasterizers](posts/Software-rasterizers.html)|2024-11-10|
 |[LISP](posts/LISP.html)|2024-11-05|
 |[STAK VM details](posts/STAK-VM-details.html)|2024-11-03|
@@ -30,9 +32,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-07-21|
 |[Node-based programming](posts/Node-based-programming.html)|2024-07-19|
-|[Git](posts/Git.html)|2024-06-21|
 |[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-06-19|
-|[Retro gamedev links](posts/Retro-gamedev-links.html)|2024-06-19|
 |[Crash reporting](posts/Crash-reporting.html)|2024-06-19|
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|

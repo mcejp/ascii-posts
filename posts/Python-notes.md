@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-11-24
+date: 2025-03-14
 title: Python notes
 unlisted: true
 ---
@@ -53,9 +53,36 @@ def sizeof_fmt(num, suffix="B"):
 
 <https://github.com/mcejp/perlin-numpy>
 
+#### Print list of dicts as a table (quick-and-dirty)
+
+``` python
+def display_table(rows: list[dict]):
+    pad = 3
+    columns: list[str] = list(rows[0].keys())
+    widths = [max(len(col), *(len(row[col] or "") for row in rows)) for col in columns]
+    for col, width in zip(columns, widths):
+        print(col.ljust(width + pad), end="")
+    print()
+    for row in rows:
+        for col, width in zip(columns, widths):
+            print((row[col] or "").ljust(width + pad), end="")
+        print()
+```
+
 #### Qt packaging
 
 <https://build-system.fman.io/>
+
+#### Random color according to string hash
+
+``` python
+def generate_color(s):
+    hash_hex = hashlib.md5(s.encode()).hexdigest()
+    hue = int(hash_hex[:4], 16) / 0xFFFF
+    r, g, b = colorsys.hsv_to_rgb(hue, s=0.5, v=0.65)
+
+    return "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
+```
 
 #### Shortcut for `struct.unpack`
 
