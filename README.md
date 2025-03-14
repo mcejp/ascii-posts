@@ -10,6 +10,6 @@ Prerequisities:
 ```toml
 port = 41184
 publish_tag = "publish"
-starred_tag = "starred
+starred_tag = "starred"
 token = "YOUR JOPLIN WEB CLIPPER TOKEN"
 ```
