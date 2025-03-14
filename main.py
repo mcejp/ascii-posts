@@ -2,6 +2,7 @@ import argparse
 import datetime
 from pathlib import Path
 from subprocess import check_call, check_output
+from textwrap import dedent
 import tomllib
 
 import requests
@@ -108,16 +109,18 @@ for type in types:
                           user_updated_time=note['user_updated_time']))
 
         with open(out_dir / f"{filename}.md", "wt") as f:
-            f.write(f"""\
----
-layout: post
-render_with_liquid: false
-date: {format_date(note['user_updated_time'])}
-title: {note["title"]}
-unlisted: true
----
+            f.write(dedent(f"""\
+            ---
+            layout: post
+            render_with_liquid: false
+            date: {format_date(note['user_updated_time'])}
+            title: {note["title"]}
+            unlisted: true
+            ---
 
-""" + post.strip() + "\n")
+            """))
+            f.write(post.strip())
+            f.write("\n")
 
 
 def decorated_title(note):
@@ -126,27 +129,24 @@ def decorated_title(note):
     else:
         return note["title"]
 
-post_list_md = "\n".join(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|"
-                         for note in sorted(index,
-                                            key=lambda note: note['user_updated_time'],
-                                            reverse=True))
 
 with open(out_dir / f"../index.md", "wt") as f:
-    f.write(f"""\
----
-layout: default
----
+    f.write(dedent(f"""\
+    ---
+    layout: default
+    ---
 
-_ASCII Posts_ are snippets extracted from my personal knowledge base and updated periodically.
-They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
-As such, there is absolutely no guarantee of accuracy or completeness :)
+    _ASCII Posts_ are snippets extracted from my personal knowledge base and updated periodically.
+    They are published in the hope that they may be of use to someone, without requiring the effort of a polished blog article on my part.
+    As such, there is absolutely no guarantee of accuracy or completeness :)
 
-[Read more...](posts/ASCII-Posts.html)
-                
-|Title|Last updated|
-|-----|------------|
-{post_list_md}
-""")
+    [Read more...](posts/ASCII-Posts.html)
+
+    |Title|Last updated|
+    |-----|------------|
+    """))
+    for note in sorted(index, key=lambda note: note['user_updated_time'], reverse=True):
+        f.write(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|\n")
 
 check_call("git add -A", shell=True, cwd=out_dir)
 check_call("git commit -m Update", shell=True, cwd=out_dir)
