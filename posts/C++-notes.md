@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-28
+date: 2025-03-14
 title: C++ notes
 unlisted: true
 ---
@@ -65,6 +65,16 @@ See <https://stackoverflow.com/a/2077957>, "Like Git Does It"
 ``` c++
 #pragma GCC diagnostic error "-Wswitch-enum"
 ```
+
+## Inline assembly
+
+Q: `asm`, `__asm`, `__asm__`?
+
+A: Use `__asm__`: <https://stackoverflow.com/a/49830990>
+
+## Objdump: show everything
+
+`objdump -Drtx <file>`
 
 ## \#pragma once
 
