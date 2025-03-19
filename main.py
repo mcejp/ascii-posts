@@ -59,6 +59,10 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
     def slugify(filename: str):
         filename = filename.replace(" ", "-")
         filename = filename.replace("/", "-")
+        while "--" in filename:
+            filename = filename.replace("--", "-")  # just because it's nicer
+        while filename.endswith("."):
+            filename = filename[:-1]
         return filename
 
     def format_date(timestamp):
@@ -119,7 +123,11 @@ with open(out_dir / f"../index.md", "wt") as f:
         |-----|------------|
         """))
     for note in sorted(index, key=lambda note: note['user_updated_time'], reverse=True):
-        f.write(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|\n")
+        if note["starred"]:
+            f.write(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|\n")
+    for note in sorted(index, key=lambda note: note['user_updated_time'], reverse=True):
+        if not note["starred"]:
+            f.write(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|\n")
 
 check_call("git add -A", shell=True, cwd=out_dir)
 check_call("git commit -m Update", shell=True, cwd=out_dir)
