@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-14
+date: 2025-03-16
 title: Random interesting GitHub projects
 unlisted: true
 ---
@@ -11,3 +11,4 @@ unlisted: true
   Safely
 - <https://github.com/gruns/icecream> debug print for Python
 - <https://github.com/otya128/winevdm> NTVDM for 64-bit windows
+- <https://github.com/ReactiveX/RxPY> ReactiveX for Python

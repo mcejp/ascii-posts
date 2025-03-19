@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-09
+date: 2025-03-18
 title: Documenting projects
 unlisted: true
 ---
@@ -15,14 +15,14 @@ on relatively short fixed-term contracts, and face-to-face knowledge
 transfer doesn't always work out.
 
 But documentation is so often misunderstood as a mere vehicle for
-information. That couldn't be further from the truth! For one, writing
-documentation leads you to explain the reasoning behind your choices,
-and thus challenge the implicit assumptions you made along the way (as
-any holes in your chain of reasoning will become plainly visible). More
-than once have I witnessed someone reach an *Aha!* moment, which caused
-them to rethink fundamental assumptions in their approach to a problem,
-during the course of "just writing some docs for completeness". How they
-wished they had done that earlier!
+information. That couldn't be further from the truth. For one, writing
+documentation leads you to explain the reasoning behind your choices. It
+challenge the implicit assumptions you made along the way, as any holes
+in your chain of reasoning will become plainly visible. More than once
+have I witnessed someone reach an *Aha!* moment, which caused them to
+rethink fundamental assumptions in their approach to a problem, during
+the course of "just writing some docs for completeness". How they wished
+they had done that earlier!
 
 I believe that there are two keys to breaking the vicious circle of poor
 documentation leading to low engagement leading to low investment in
@@ -44,7 +44,7 @@ tools that help me every day.
 - Projects evolve, so any documentation that cannot be trivially updated
   is doomed to be obsolete
 - Your best chance of keeping docs up to date is to make them part of
-  the source code -- same as your
+  the source code -- just like your
   [changelog](https://keepachangelog.com/)
 - API docs should be extracted from the source code and incorporated
   within a *human-designed* overall structure.
@@ -57,8 +57,8 @@ tools that help me every day.
 
 ## Types of documentation
 
-This cannot be emphasized enough -- use the right ~~tool~~ format for
-the job at hand!
+This cannot be emphasized enough -- use the right format for the job at
+hand!
 
 ### User guide & Developer's guide
 
@@ -66,7 +66,7 @@ the job at hand!
 - should be *aggressively* kept up-to-date
   - version-controlled together with the code
 - deployment should be automated, so that it does not require ongoing
-  effort (for example, via Github/GitLab Pages)
+  effort (e.g. Github Pages)
 
 #### Recommended tool: Sphinx
 
@@ -74,15 +74,15 @@ Advantages:
 
 - natively supports Python API docs
 - C/C++ via Breathe extension
-- reST language is powerful -- although this power comes with a learning
-  curve
+- reST language is powerful -- although this comes at the cost of a
+  learning curve
 - high-quality themes freely available
 
 Drawbacks:
 
 - not interconnected between projects organization-wide, usually no
   global search
-- tables in reST are... clunky
+- the syntax for tables in reST is pretty clunky
 
 Examples:
 
@@ -114,21 +114,23 @@ Drawbacks:
 
 - since it is not part of source code, it's easier to forget to update
   it when implementing a change
-- usually very difficult to propagate information from source code on
+  - unless [it *is* part of the source
+    code](https://web.archive.org/web/20231210204843/https://samizdat.dev/use-markdown-for-confluence/)
+- it can be tricky to propagate information from source code on
   push/release
 - not always easy to reorganize and move pages around (since they are
   not plain files)
-- 'live information' can only be embedded via specific plug-ins (e.g.,
+- 'live information' can only be embedded via specific plug-ins (e.g.
   JIRA)
-- if using a proprietary solution: vendor lock-in, difficulty of content
-  migration
+- if using a proprietary solution: vendor lock-in, difficult to migrate
+  content elsewhere
 
 ### Technical report
 
 - written once and usually not updated
-- excellent place to discuss *reasoning* behind the decisions made and
-  the design process in general (although these would usually deserve to
-  be included in Developer's guide as well)
+- excellent place to discuss the *rationale* behind the decisions made,
+  as well as the design process in general (although these would usually
+  deserve to be included in Developer's guide as well)
 
 #### Recommended tool: LaTeX
 
@@ -141,7 +143,7 @@ Advantages:
   - bibliography
 - outputs to PDF which is easy to pass around
 - Overleaf
-- gorgeous typesetting
+- high-quality typesetting
 
 Drawbacks:
 
@@ -174,8 +176,8 @@ Examples:
 There is a certain warmth to human speech which cannot be replicated in
 writing, no matter how skilled. A talk can be inspiring, funny, yet also
 strangely comforting and reassuring... It is a great medium for
-conveying information that is stable -- otherwise, keeping it up-to-date
-can be a challenge.
+conveying information that is *stable* -- keeping it up-to-date can be a
+challenge otherwise.
 
 Strengths:
 
@@ -207,7 +209,7 @@ spaces.
 ## Additional resources
 
 - [CERN English language Style
-  Guide](https://translation-council-support-group.web.cern.ch/sites/default/files/styles/CERN%20TM%20English%20language%20style%20guide.pdf)
+  Guide](https://translation-council-support-group.web.cern.ch/sites/default/files/CERN%20TM%20English%20language%20style%20guide.pdf)
 - [How writing creates
   value](https://alexkrupp.typepad.com/sensemaking/2010/06/how-writing-creates-value-.html)
 - [An online tree-like utility for generating ASCII folder structure
@@ -266,9 +268,9 @@ spaces.
 > I find it hard to get people to write down anything. And if they do,
 > they often times don't put enough effort into it, like writing down
 > some bullet points without context or screenshots without adding text.
-> This is a personal and cultural problem at companies and in teams. A
+> This is a personal and cultural problem at companies and in teams. **A
 > lot of people don't know how to generate value from taking
-> notes/documentation and aren't good writers in general. I'm still
+> notes/documentation** and aren't good writers in general. I'm still
 > thinking about how you can teach people what's important when it comes
 > to writing and when to take notes.
 >
@@ -283,7 +285,7 @@ spaces.
 > of magnitude more often than written/changed.
 >
 > -- [Hacker News](https://news.ycombinator.com/item?id=23724730),
-> trimmed
+> trimmed, emphasis mine
 
 #### Exhibit E
 
@@ -315,3 +317,7 @@ spaces.
 > Documentation is extraordinarily difficult to create. You need to
 > anticipate the potential questions and answer them and anticipate all
 > the potential perspectives and answer them from that perspective.
+>
+> -- [Hacker News](https://news.ycombinator.com/item?id=39711929)
+
+Originally published on 2024-03-26.
