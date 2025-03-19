@@ -38,7 +38,7 @@ index = []
 for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
     # import json; print(json.dumps(note, indent=2))
 
-    note_tags = client.get(f"/notes/{note['id']}/tags")
+    note_tags = [tag["title"] for tag in client.get(f"/notes/{note['id']}/tags")["items"]]
 
     if type["delimiters"]:
         lines: list[str] = note["body"].split("\n")
@@ -75,11 +75,11 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
                         input=post.strip(),
                         text=True)
 
-    note["filename"] = filename
     index.append(dict(title=note['title'],
-                        tags=[tag["title"] for tag in note_tags["items"]],
-                        url=f"posts/{note['filename']}.html",
-                        user_updated_time=note['user_updated_time']))
+                      tags=note_tags,
+                      starred="starred_tag" in config and config["starred_tag"] in note_tags,
+                      url=f"posts/{filename}.html",
+                      user_updated_time=note['user_updated_time']))
 
     with open(out_dir / f"{filename}.md", "wt") as f:
         f.write(dedent(f"""\
@@ -97,7 +97,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
 
 
 def decorated_title(note):
-    if "starred_tag" in config and config["starred_tag"] in note["tags"]:
+    if note["starred"]:
         return "&#x2B50; " + note["title"]
     else:
         return note["title"]
