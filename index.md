@@ -13,9 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[DOS programming](posts/DOS-programming.html)|2025-03-30|
+|[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
 |[Python notes](posts/Python-notes.html)|2025-03-16|
 |[Random interesting GitHub projects](posts/Random-interesting-GitHub-projects.html)|2025-03-16|
-|[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-14|
 |[USB in FPGA](posts/USB-in-FPGA.html)|2025-03-14|
 |[Boolean mesh operations](posts/Boolean-mesh-operations.html)|2025-03-14|
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
@@ -54,18 +55,15 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
 |[Serverless](posts/Serverless.html)|2024-01-12|
-|[Low-code](posts/Low-code.html)|2024-01-12|
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|
 |[DSL](posts/DSL.html)|2024-01-03|
 |[Software auto-updating](posts/Software-auto-updating.html)|2024-01-03|
 |[Bitstream dynamic rebuilding](posts/Bitstream-dynamic-rebuilding.html)|2024-01-03|
 |[Load testing](posts/Load-testing.html)|2024-01-03|
-|[DOS programming](posts/DOS-programming.html)|2024-01-03|
 |[ffmpeg](posts/ffmpeg.html)|2023-12-10|
 |[Vue](posts/Vue.html)|2023-09-28|
 |[Command-line interface conventions](posts/Command-line-interface-conventions.html)|2022-03-23|
 |[Biome algorithm](posts/Biome-algorithm.html)|2022-02-16|
-|[JIRA alternatives](posts/JIRA-alternatives.html)|2022-01-16|
 |[Plugins development / architecture](posts/Plugins-development-architecture.html)|2021-09-17|
 |[Dynamic plots](posts/Dynamic-plots.html)|2021-05-08|
 |[Ada](posts/Ada.html)|2020-09-03|
