@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
 |[DOS programming](posts/DOS-programming.html)|2025-03-30|
 |[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
 |[Python notes](posts/Python-notes.html)|2025-03-16|
@@ -57,7 +58,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Serverless](posts/Serverless.html)|2024-01-12|
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|
 |[DSL](posts/DSL.html)|2024-01-03|
-|[Software auto-updating](posts/Software-auto-updating.html)|2024-01-03|
 |[Bitstream dynamic rebuilding](posts/Bitstream-dynamic-rebuilding.html)|2024-01-03|
 |[Load testing](posts/Load-testing.html)|2024-01-03|
 |[ffmpeg](posts/ffmpeg.html)|2023-12-10|

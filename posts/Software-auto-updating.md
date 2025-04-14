@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-01-03
+date: 2025-04-14
 title: Software auto-updating
 unlisted: true
 ---
@@ -18,5 +18,8 @@ unlisted: true
 - WireGuard on Windows: ?
 
 - Chrome: look for "Google Omaha"
+
+- TrenchBroom: [custom
+  library](https://github.com/TrenchBroom/TrenchBroom/pull/4795)
 
 - <https://theupdateframework.io/> relevant in any way?
