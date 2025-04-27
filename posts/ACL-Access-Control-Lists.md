@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-24
-title: ACL / Access Control Lists
+title: "ACL / Access Control Lists"
 unlisted: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-01-12
-title: Serverless
+title: "Serverless"
 unlisted: true
 ---
 

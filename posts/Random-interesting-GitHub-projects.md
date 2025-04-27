@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-16
-title: Random interesting GitHub projects
+title: "Random interesting GitHub projects"
 unlisted: true
 ---
 

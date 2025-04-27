@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-01-19
-title: Making impactful presentations
+title: "Making impactful presentations"
 unlisted: true
 ---
 

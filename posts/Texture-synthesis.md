@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2020-07-18
-title: Texture synthesis
+title: "Texture synthesis"
 unlisted: true
 ---
 

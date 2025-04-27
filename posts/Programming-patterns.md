@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-04-07
-title: Programming patterns
+title: "Programming patterns"
 unlisted: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-07-21
-title: Python project bootstrapping
+title: "Python project bootstrapping"
 unlisted: true
 ---
 

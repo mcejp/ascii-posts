@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-01-05
-title: Ideas for a SQL replacement
+title: "Ideas for a SQL replacement"
 unlisted: true
 ---
 

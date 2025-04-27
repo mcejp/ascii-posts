@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-04-14
-title: Software auto-updating
+title: "Software auto-updating"
 unlisted: true
 ---
 

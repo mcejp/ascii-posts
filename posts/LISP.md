@@ -1,8 +1,8 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-11-05
-title: LISP
+date: 2025-04-23
+title: "LISP"
 unlisted: true
 ---
 
@@ -46,3 +46,10 @@ Whitequark Racket/Rosette:
 
 - <https://lab.whitequark.org/notes/2020-04-06/minimizing-logic-expressions/>
 - <https://lab.whitequark.org/notes/2020-04-06/synthesizing-optimal-8051-code/>
+
+### Literature
+
+#### History
+
+- [Common Lisp: The Untold Story
+  (2008)](https://nhplace.com/kent/Papers/cl-untold-story.html)

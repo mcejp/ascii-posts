@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-06-19
-title: Crash reporting
+title: "Crash reporting"
 unlisted: true
 ---
 

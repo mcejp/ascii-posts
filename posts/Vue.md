@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2023-09-28
-title: Vue
+title: "Vue"
 unlisted: true
 ---
 

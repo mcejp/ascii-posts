@@ -1,10 +1,28 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-01-08
-title: Hylang
+date: 2025-04-24
+title: "Hylang"
 unlisted: true
 ---
+
+### Command-line argument parsing
+
+See
+[hyrule.parse-args](https://hylang.org/hyrule/doc/v1.0.0#hyrule.parse-args)
+
+### Convention for comments
+
+> - Comments that start with four semicolons, `;;;;`, should appear at
+>   the top of a file, explaining its purpose.
+> - Comments starting with three semicolons, `;;;`, should be used to
+>   separate regions of the code.
+> - Comments with two semicolons, `;;`, should describe regions of code
+>   within a function or some other top-level form, while
+>   single-semicolon comments, `;`, should just be short notes on a
+>   single line.
+>
+> -- <https://lisp-lang.org/style-guide/#comment-hierarchy>
 
 ### Iterate over DAG nodes in topologic order (naive but easy-to-understand algorithm)
 
@@ -43,6 +61,10 @@ unlisted: true
 ### Q: 2 or 4 spaces for indent?
 
 A: Official repo uses 2
+
+### Q: Group imports (use single `import` form)?
+
+A: Yes. FWIW, Hy repo sometimes does, sometimes not.
 
 ### Q: How to have a macro receive kwargs and propagate them into emitted code?
 

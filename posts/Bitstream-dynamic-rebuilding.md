@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-01-03
-title: Bitstream dynamic rebuilding
+title: "Bitstream dynamic rebuilding"
 unlisted: true
 ---
 

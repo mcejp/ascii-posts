@@ -13,8 +13,15 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
+|[DOS programming](posts/DOS-programming.html)|2025-04-27|
+|[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
+|[Hylang](posts/Hylang.html)|2025-04-24|
+|[LISP](posts/LISP.html)|2025-04-23|
+|[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-04-21|
+|[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|
+|[Diary: How to add a REPL to STAK](posts/Diary-How-to-add-a-REPL-to-STAK.html)|2025-04-15|
 |[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
-|[DOS programming](posts/DOS-programming.html)|2025-03-30|
 |[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
 |[Python notes](posts/Python-notes.html)|2025-03-16|
 |[Random interesting GitHub projects](posts/Random-interesting-GitHub-projects.html)|2025-03-16|
@@ -29,14 +36,11 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2025-03-13|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2025-03-09|
 |[ECMAScript implementations](posts/ECMAScript-implementations.html)|2025-03-05|
-|[Hylang](posts/Hylang.html)|2025-01-08|
-|[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2024-12-23|
 |[BASIC](posts/BASIC.html)|2024-12-22|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2024-12-22|
 |[LVM](posts/LVM.html)|2024-12-06|
 |[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|
 |[Software rasterizers](posts/Software-rasterizers.html)|2024-11-10|
-|[LISP](posts/LISP.html)|2024-11-05|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
 |[Libraries](posts/Libraries.html)|2024-10-24|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|

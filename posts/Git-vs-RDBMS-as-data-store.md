@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-04-27
-title: Git vs RDBMS as data store
+title: "Git vs RDBMS as data store"
 unlisted: true
 ---
 

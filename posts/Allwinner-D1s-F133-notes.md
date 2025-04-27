@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-12-04
-title: Allwinner D1s/F133 notes
+title: "Allwinner D1s/F133 notes"
 unlisted: true
 ---
 

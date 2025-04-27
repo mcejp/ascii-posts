@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-03-20
-title: LaTeX tips & tricks
+title: "LaTeX tips & tricks"
 unlisted: true
 ---
 

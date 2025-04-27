@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2021-05-08
-title: Dynamic plots
+title: "Dynamic plots"
 unlisted: true
 ---
 

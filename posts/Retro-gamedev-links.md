@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-13
-title: Retro gamedev links
+title: "Retro gamedev links"
 unlisted: true
 ---
 

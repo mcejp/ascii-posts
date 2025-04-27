@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-14
-title: Embedded filesystems & databases
+title: "Embedded filesystems & databases"
 unlisted: true
 ---
 

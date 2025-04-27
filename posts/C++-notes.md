@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-14
-title: C++ notes
+title: "C++ notes"
 unlisted: true
 ---
 

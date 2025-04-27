@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-10-24
-title: Draft protocol for real-time tile-based visualisation (TileVision)
+title: "Draft protocol for real-time tile-based visualisation (TileVision)"
 unlisted: true
 ---
 

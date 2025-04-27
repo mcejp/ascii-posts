@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-11-10
-title: Software rasterizers
+title: "Software rasterizers"
 unlisted: true
 ---
 

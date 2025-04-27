@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2025-03-18
-title: Documenting projects
+title: "Documenting projects"
 unlisted: true
 ---
 

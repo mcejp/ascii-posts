@@ -2,7 +2,7 @@
 layout: post
 render_with_liquid: false
 date: 2024-04-01
-title: Open-source software supply chain attacks
+title: "Open-source software supply chain attacks"
 unlisted: true
 ---
 
