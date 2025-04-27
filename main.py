@@ -4,6 +4,7 @@ from pathlib import Path
 from subprocess import check_call, check_output
 from textwrap import dedent
 import tomllib
+import traceback
 
 from asciiposts import JoplinClient, get_filtered_notes
 
@@ -40,16 +41,23 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
 
     note_tags = [tag["title"] for tag in client.get(f"/notes/{note['id']}/tags")["items"]]
 
-    if type["delimiters"]:
-        lines: list[str] = note["body"].split("\n")
+    try:
+        if type["delimiters"]:
+            lines: list[str] = note["body"].split("\n")
 
-        begin_line = lines.index("### PUBLISHED PART")
-        end_line = lines.index("### UNPUBLISHED PART")
-        assert end_line > begin_line
+            begin_line = lines.index("### PUBLISHED PART")
+            end_line = lines.index("### UNPUBLISHED PART")
+            assert end_line > begin_line
 
-        post = "\n".join(lines[begin_line + 1 : end_line])
-    else:
-        post = note["body"]
+            post = "\n".join(lines[begin_line + 1 : end_line])
+        else:
+            post = note["body"]
+
+            assert "### PUBLISHED PART" not in post
+            assert "### UNPUBLISHED PART" not in post
+    except Exception:
+        print(f'error processing note "{note["title"]}":')
+        traceback.print_exc()
 
     # post = post.replace("<ascii-posts:post-list/>", post_list_md)
 
