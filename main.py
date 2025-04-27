@@ -67,6 +67,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
     def slugify(filename: str):
         filename = filename.replace(" ", "-")
         filename = filename.replace("/", "-")
+        filename = filename.replace(":", "-")
         while "--" in filename:
             filename = filename.replace("--", "-")  # just because it's nicer
         while filename.endswith("."):
@@ -99,7 +100,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
             layout: post
             render_with_liquid: false
             date: {format_date(note['user_updated_time'])}
-            title: {note["title"]}
+            title: "{note["title"].replace('"', '\\"')}"
             unlisted: true
             ---
 
