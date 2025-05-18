@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-04-27
+date: 2025-05-11
 title: "DOS programming"
 unlisted: true
 ---
@@ -43,8 +43,10 @@ Line endings:
 IDEs:
 
 - [CLion](https://github.com/open-watcom/open-watcom-v2/issues/596#issuecomment-1200146390)
-- Turbo C
-- Turbo Pascal
+- Borland Turbo C/C++
+- Borland Turbo Pascal
+- Microsoft Visual C++
+- [DataViews](https://news.ycombinator.com/item?id=38794304)
 
 Open Watcom:
 

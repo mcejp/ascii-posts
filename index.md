@@ -13,10 +13,11 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Pocket 8086](posts/Pocket-8086.html)|2025-05-17|
+|[DOS programming](posts/DOS-programming.html)|2025-05-11|
+|[Hylang](posts/Hylang.html)|2025-05-11|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
-|[DOS programming](posts/DOS-programming.html)|2025-04-27|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
-|[Hylang](posts/Hylang.html)|2025-04-24|
 |[LISP](posts/LISP.html)|2025-04-23|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-04-21|
 |[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|

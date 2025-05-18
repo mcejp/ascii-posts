@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-04-24
+date: 2025-05-11
 title: "Hylang"
 unlisted: true
 ---
@@ -77,7 +77,8 @@ A: Yes. FWIW, Hy repo sometimes does, sometimes not.
 
 ### Q: How to print indented S-exprs?
 
-(In STAK, we implemented our own)
+(In STAK, we [implemented our
+own](https://github.com/mcejp/STAK/blob/main/write.hy))
 
 ### Q: How to de/serialize dataclasses to S-exprs?
 
