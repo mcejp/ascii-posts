@@ -1,10 +1,12 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-17
+date: 2025-05-23
 title: "Pocket 8086"
 unlisted: true
 ---
+
+Similar to: IBM PS/2 Model 30 (1987)
 
 ### USB flash drive
 
@@ -26,9 +28,8 @@ mounted as drive `D:`.
 To be seen:
 
 - what is the size limit
-- if it works after mounting /dev/sda directly (Linux doesn't seem to
-  recognize that the filesystem should be limited to 1.44 MB in that
-  case)
+  - 8 MB works, maybe 32 MB then (limit of FAT12), or 504 MB (1024
+    cylinders, 16 heads, 63 sectors)
 - if the USB controller
   ([CH375](https://www.wch-ic.com/products/CH375.html)) is flexible
   enough to implement support for other devices: mice, card readers,

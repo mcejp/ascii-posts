@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-12-22
+date: 2025-05-22
 title: "JIT / recompilation"
 unlisted: true
 ---

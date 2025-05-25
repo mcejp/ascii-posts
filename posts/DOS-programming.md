@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-11
+date: 2025-05-24
 title: "DOS programming"
 unlisted: true
 ---
@@ -52,3 +52,11 @@ Open Watcom:
 
 - docs: <https://www.openwatcom.org/ftp/manuals/current/;> is there
   something better (more browsable & searchable)?
+
+``` c
+int32_t mul16x16(int a, int b);
+
+#pragma aux mul16x16 = \
+    "imul dx"       \
+    parm [dx] [ax] value [dx ax] modify exact [ax dx];
+```
