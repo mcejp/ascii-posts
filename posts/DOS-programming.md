@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-24
+date: 2025-05-30
 title: "DOS programming"
 unlisted: true
 ---
@@ -47,6 +47,7 @@ IDEs:
 - Borland Turbo Pascal
 - Microsoft Visual C++
 - [DataViews](https://news.ycombinator.com/item?id=38794304)
+- <https://en.wikipedia.org/wiki/Personal_Editor>
 
 Open Watcom:
 

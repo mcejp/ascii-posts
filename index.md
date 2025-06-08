@@ -13,7 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
-|[DOS programming](posts/DOS-programming.html)|2025-05-24|
+|[DOS programming](posts/DOS-programming.html)|2025-05-30|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-05-23|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
