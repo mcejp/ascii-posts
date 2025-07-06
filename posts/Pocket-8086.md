@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-23
+date: 2025-06-29
 title: "Pocket 8086"
 unlisted: true
 ---
@@ -30,6 +30,7 @@ To be seen:
 - what is the size limit
   - 8 MB works, maybe 32 MB then (limit of FAT12), or 504 MB (1024
     cylinders, 16 heads, 63 sectors)
+  - 512 MB works: `mkfs.msdos -F16 /dev/sda 524288`
 - if the USB controller
   ([CH375](https://www.wch-ic.com/products/CH375.html)) is flexible
   enough to implement support for other devices: mice, card readers,

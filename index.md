@@ -13,20 +13,22 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
-|[DOS programming](posts/DOS-programming.html)|2025-05-30|
-|[Pocket 8086](posts/Pocket-8086.html)|2025-05-23|
+|[Python notes](posts/Python-notes.html)|2025-07-05|
+|[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
+|[DOS programming](posts/DOS-programming.html)|2025-06-29|
+|[PDF manipulation](posts/PDF-manipulation.html)|2025-06-27|
+|[Sysadmin tools](posts/Sysadmin-tools.html)|2025-06-26|
+|[LISP](posts/LISP.html)|2025-06-23|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Hylang](posts/Hylang.html)|2025-05-11|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
-|[LISP](posts/LISP.html)|2025-04-23|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-04-21|
 |[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|
 |[Diary: How to add a REPL to STAK](posts/Diary-How-to-add-a-REPL-to-STAK.html)|2025-04-15|
 |[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
 |[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
-|[Python notes](posts/Python-notes.html)|2025-03-16|
 |[Random interesting GitHub projects](posts/Random-interesting-GitHub-projects.html)|2025-03-16|
 |[USB in FPGA](posts/USB-in-FPGA.html)|2025-03-14|
 |[Boolean mesh operations](posts/Boolean-mesh-operations.html)|2025-03-14|
@@ -46,7 +48,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
 |[Libraries](posts/Libraries.html)|2024-10-24|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
-|[PDF manipulation](posts/PDF-manipulation.html)|2024-07-21|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-07-21|
 |[CMake tips & tricks](posts/CMake-tips-&-tricks.html)|2024-06-19|

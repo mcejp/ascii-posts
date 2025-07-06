@@ -1,10 +1,15 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-07-21
+date: 2025-06-27
 title: "PDF manipulation"
 unlisted: true
 ---
+
+#### Search (grep) across PDF documents
+
+    sudo dnf install pdfgrep
+    pdfgrep pattern *.pdf
 
 #### Merging PDF
 

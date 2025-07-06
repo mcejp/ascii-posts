@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-04-23
+date: 2025-06-23
 title: "LISP"
 unlisted: true
 ---

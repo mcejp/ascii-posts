@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-16
+date: 2025-07-05
 title: "Python notes"
 unlisted: true
 ---
@@ -239,6 +239,11 @@ ax.yaxis.set_minor_locator(MultipleLocator(0.5))
 ### Chained `logical_and` / `logical_or`
 
     np.logical_and.reduce((a, b, c, ...))
+
+### RNG boilerplate
+
+    rng = numpy.random.default_rng(seed=0)
+    print(rng.uniform(size=(3,3)))
 
 ### Types to use/avoid
 
