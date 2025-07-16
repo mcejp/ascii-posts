@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-06-29
+date: 2025-07-08
 title: "DOS programming"
 unlisted: true
 ---
@@ -54,6 +54,8 @@ IDEs:
 - Microsoft Visual C++
 - [DataViews](https://news.ycombinator.com/item?id=38794304)
 - <https://en.wikipedia.org/wiki/Personal_Editor>
+
+Sound library: <https://github.com/wbcbz7/sndlib-watcom>
 
 ### Open Watcom
 
