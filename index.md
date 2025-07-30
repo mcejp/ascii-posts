@@ -13,6 +13,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2025-07-25|
+|[C++ notes](posts/C++-notes.html)|2025-07-24|
 |[DOS programming](posts/DOS-programming.html)|2025-07-08|
 |[Python notes](posts/Python-notes.html)|2025-07-05|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
@@ -33,7 +35,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[USB in FPGA](posts/USB-in-FPGA.html)|2025-03-14|
 |[Boolean mesh operations](posts/Boolean-mesh-operations.html)|2025-03-14|
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
-|[C++ notes](posts/C++-notes.html)|2025-03-14|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-03-14|
@@ -59,7 +60,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2024-04-02|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Game engines](posts/Game-engines.html)|2024-03-27|
-|[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2024-03-20|
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
 |[Pandoc](posts/Pandoc.html)|2024-01-26|
 |[Serverless](posts/Serverless.html)|2024-01-12|

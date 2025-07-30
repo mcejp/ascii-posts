@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-14
+date: 2025-07-24
 title: "C++ notes"
 unlisted: true
 ---
@@ -95,3 +95,8 @@ Cons:
 
 See
 <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/divmodnote-letter.pdf>
+
+## Misc
+
+Some wild macros:
+[systemd/src/fundamental/macro-fundamental.h](https://github.com/systemd/systemd/blob/603916702dabb55f7f9553af7cb6adf49b707dee/src/fundamental/macro-fundamental.h)

@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-03-20
+date: 2025-07-25
 title: "LaTeX tips & tricks"
 unlisted: true
 ---
@@ -15,6 +15,17 @@ unlisted: true
 ### Batch compilation in scripts, CI etc.
 
 Use `latexmk` instead of calling latex directly
+
+### Bibiliography
+
+If possible, use BibLaTeX:
+<https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX>
+
+Otherwise:
+<https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex>
+
+- LaTeX basic -- `bibitem` etc. (I used it for IPAC'23 paper)
+- bibtex -- I used it for Bmbook
 
 ### Bytefield broken (header disappearing)
 
