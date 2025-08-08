@@ -13,10 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Python notes](posts/Python-notes.html)|2025-08-04|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2025-07-25|
 |[C++ notes](posts/C++-notes.html)|2025-07-24|
 |[DOS programming](posts/DOS-programming.html)|2025-07-08|
-|[Python notes](posts/Python-notes.html)|2025-07-05|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-06-27|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2025-06-26|

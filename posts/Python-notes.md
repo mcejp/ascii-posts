@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-07-05
+date: 2025-08-04
 title: "Python notes"
 unlisted: true
 ---
