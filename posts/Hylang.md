@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-11
+date: 2025-08-09
 title: "Hylang"
 unlisted: true
 ---
@@ -56,6 +56,14 @@ See
 
 (for [node (depth-first wren-du)]
     (print node.name))
+```
+
+### List to list of pairs
+
+``` scheme
+(defn pairwise [lst]
+  (let [it (iter lst)]
+    (list (zip it it))))
 ```
 
 ### Q: 2 or 4 spaces for indent?

@@ -13,6 +13,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-08-15|
+|[Hylang](posts/Hylang.html)|2025-08-09|
 |[Python notes](posts/Python-notes.html)|2025-08-04|
 |[LaTeX tips & tricks](posts/LaTeX-tips-&-tricks.html)|2025-07-25|
 |[C++ notes](posts/C++-notes.html)|2025-07-24|
@@ -23,7 +25,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[LISP](posts/LISP.html)|2025-06-23|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
-|[Hylang](posts/Hylang.html)|2025-05-11|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-04-21|
@@ -37,7 +38,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|
-|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-03-14|
 |[Git](posts/Git.html)|2025-03-14|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2025-03-13|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2025-03-09|

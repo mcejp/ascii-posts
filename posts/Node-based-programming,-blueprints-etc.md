@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-14
+date: 2025-08-15
 title: "Node-based programming, blueprints etc."
 unlisted: true
 ---
