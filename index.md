@@ -10,9 +10,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 
 |Title|Last updated|
 |-----|------------|
-|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-03-18|
+|[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Git](posts/Git.html)|2025-08-19|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-08-15|
 |[Hylang](posts/Hylang.html)|2025-08-09|
 |[Python notes](posts/Python-notes.html)|2025-08-04|
@@ -38,7 +39,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|
-|[Git](posts/Git.html)|2025-03-14|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2025-03-13|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2025-03-09|
 |[ECMAScript implementations](posts/ECMAScript-implementations.html)|2025-03-05|

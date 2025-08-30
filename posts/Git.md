@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-14
+date: 2025-08-19
 title: "Git"
 unlisted: true
 ---
@@ -25,6 +25,21 @@ Alternative
 3.  commit
 4.  delete `master` & rename `ci` to `master`
 5.  done!
+
+### Separate a change from a commit and move it earlier in history
+
+- `git rebase -i HEAD~2`
+- insert a `break` command *before* the commit in question
+- cherry pick the change(s) to separate, commit with new message
+- continue rebase; the rest of the original commit will be applied now
+
+### Separate a change from a commit and move it later in history
+
+- `git rebase -i HEAD~2`
+- insert a `break` command *before* the commit in question
+- cherry pick the change(s) to separate, commit with new message
+- continue rebase; the rest of the original commit will be applied now
+- rebase again, this time move the newly created commit as desired
 
 ### Set all commit dates to author dates
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-03-18
+date: 2025-08-23
 title: "Documenting projects"
 unlisted: true
 ---
@@ -319,5 +319,16 @@ spaces.
 > the potential perspectives and answer them from that perspective.
 >
 > -- [Hacker News](https://news.ycombinator.com/item?id=39711929)
+
+#### Exhibit H
+
+> For fully-fledged documentation of a large (or small) software
+> project, I'd definitely go with reST, most likely using Sphinx. (...)
+> For a simple markup system use in things like forum comments, or
+> marking up chat messages, the decision is trickier. Markdown is a good
+> choice because more users would be familiar with it.
+>
+> -- [reStructuredText vs. Markdown for technical
+> documentation](https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/)
 
 Originally published on 2024-03-26.
