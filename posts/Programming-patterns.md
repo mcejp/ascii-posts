@@ -1,10 +1,36 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-07
+date: 2025-09-29
 title: "Programming patterns"
 unlisted: true
 ---
+
+### Cache a computation using Numpy
+
+``` python
+try:
+    example = np.load("example.npy")
+except FileNotFoundError:
+    example = compute()
+    np.save("example.npy", example)
+```
+
+### Cache a computation using Pickle + gzip
+
+``` python
+import gzip
+import pickle
+
+try:
+    with gzip.open("example.pickle.gz", "rb") as f:
+        a, b, c = pickle.load(f)
+except FileNotFoundError:
+    a, b, c = compute()
+
+    with gzip.open("example.pickle.gz", "wb") as f:
+        pickle.dump((a, b, c), f)
+```
 
 ### Check if an output needs to be rebuild from source based on modification timestamp
 

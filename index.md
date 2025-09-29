@@ -13,6 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Programming patterns](posts/Programming-patterns.html)|2025-09-29|
+|[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
+|[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-09-24|
+|[CRON jobs logging & monitoring](posts/CRON-jobs-logging-&-monitoring.html)|2025-09-22|
 |[Git](posts/Git.html)|2025-08-19|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-08-15|
 |[Hylang](posts/Hylang.html)|2025-08-09|
@@ -56,8 +60,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Atomic file update (replace)](posts/Atomic-file-update-(replace).html)|2024-05-11|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[UUID / GUID](posts/UUID-GUID.html)|2024-04-07|
-|[Programming patterns](posts/Programming-patterns.html)|2024-04-07|
-|[ASCII tree generators](posts/ASCII-tree-generators.html)|2024-04-02|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Game engines](posts/Game-engines.html)|2024-03-27|
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
