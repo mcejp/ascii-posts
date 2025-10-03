@@ -58,6 +58,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
     except Exception:
         print(f'error processing note "{note["title"]}":')
         traceback.print_exc()
+        continue
 
     # post = post.replace("<ascii-posts:post-list/>", post_list_md)
 
