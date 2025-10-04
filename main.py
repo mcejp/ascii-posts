@@ -1,6 +1,7 @@
 import argparse
 import datetime
 from pathlib import Path
+import re
 from subprocess import check_call, check_output
 from textwrap import dedent
 import tomllib
@@ -63,6 +64,29 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
     # post = post.replace("<ascii-posts:post-list/>", post_list_md)
 
     #post = post.replace(" -- ", "&mdash;")          # this breaks commands in PDF topic
+
+    # Process images in the post content    
+    pattern = r'!\[(.*?)\]\(:/([a-f0-9]{32})\)'
+    
+    def replace_image(match):
+        caption, resource_id = match.groups()
+
+        resource = client.get(f"/resources/{resource_id}")
+        resource_bytes = client.get_resource_file(resource_id)
+
+        # Create a filename that includes the original name if available
+        filename = resource.get("title", resource_id)
+        if not filename.endswith((".png", ".jpg", ".jpeg", ".gif")):
+            filename = f"{filename}.{resource['file_extension']}"
+
+        # Save the file
+        image_path = out_dir / "images" / filename
+        image_path.write_bytes(resource_bytes)
+
+        # Return the new markdown image reference
+        return f"![{caption}](../images/{filename})"
+
+    post = re.sub(pattern, replace_image, post)
 
     # slug-ify file name
     def slugify(filename: str):

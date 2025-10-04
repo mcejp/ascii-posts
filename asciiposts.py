@@ -12,6 +12,11 @@ class JoplinClient:
         req.prepare_url(self._base_url + url, params | dict(token=self._token))
         return requests.get(req.url).json()
 
+    def get_resource_file(self, resource_id: str) -> bytes:
+        req = PreparedRequest()
+        req.prepare_url(f"{self._base_url}/resources/{resource_id}/file", dict(token=self._token))
+        return requests.get(req.url).content
+
 
 # Not really generic, so not part of JoplinClient
 def get_filtered_notes(client: JoplinClient, publish_tag: str):
