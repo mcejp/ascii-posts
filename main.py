@@ -20,7 +20,7 @@ out_dir = args.out_dir
 client = JoplinClient(port=config["port"], token=config["token"])
 
 # clean output directory (we always rebuild the entire tree)
-for path in out_dir.iterdir():
+for path in (out_dir / "posts").iterdir():
     if path.name == ".git":
         continue
 
@@ -95,7 +95,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
                       url=f"posts/{filename}.html",
                       user_updated_time=note['user_updated_time']))
 
-    with open(out_dir / f"{filename}.md", "wt") as f:
+    with open(out_dir / "posts" / f"{filename}.md", "wt") as f:
         f.write(dedent(f"""\
             ---
             layout: post
@@ -117,7 +117,7 @@ def decorated_title(note):
         return note["title"]
 
 
-with open(out_dir / f"../index.md", "wt") as f:
+with open(out_dir / "index.md", "wt") as f:
     f.write(dedent(f"""\
         ---
         layout: default
