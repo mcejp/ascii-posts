@@ -13,8 +13,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Earth/World datasets](posts/Earth-World-datasets.html)|2025-10-05|
 |[Networking gear](posts/Networking-gear.html)|2025-10-04|
-|[Earth/World datasets](posts/Earth-World-datasets.html)|2025-10-04|
 |[Marching squares](posts/Marching-squares.html)|2025-10-04|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2025-10-02|
 |[Programming patterns](posts/Programming-patterns.html)|2025-09-29|

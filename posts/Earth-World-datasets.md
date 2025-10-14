@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-04
+date: 2025-10-05
 title: "Earth/World datasets"
 unlisted: true
 ---
@@ -85,6 +85,7 @@ unlisted: true
 
 - Format: Cloud Optimized GeoTIFF (COG)
 - Tiling: 2651 tiles of 3x3 degrees
+- Size: ? in 18 macrotiles (60x60 degrees)
 - Download: <https://worldcover2021.esa.int/downloader>
 - Manual:
   <https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/docs/WorldCover_PUM_V2.0.pdf>
