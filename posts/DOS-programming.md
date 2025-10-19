@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-07-08
+date: 2025-10-18
 title: "DOS programming"
 unlisted: true
 ---
@@ -24,6 +24,10 @@ DOS reference:
 - <http://spike.scu.edu.au/~barry/interrupts.html#ah3c>
 - <http://www.o3one.org/hwdocs/bios_doc/dosref22.html>
 - <https://github.com/joncampbell123/doslib>
+
+Communities:
+
+- <https://forum.vcfed.org/index.php?forums/vintage-computer-programming.30/>
 
 GUI:
 

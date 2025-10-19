@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-04
+date: 2025-10-14
 title: "Networking gear"
 unlisted: true
 ---

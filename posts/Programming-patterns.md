@@ -1,10 +1,22 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-09-29
+date: 2025-10-18
 title: "Programming patterns"
 unlisted: true
 ---
+
+### Atomic file update (replace)
+
+Useful for:
+
+- Saving documents to ensure there is always a non-broken version
+- git refs operations
+
+APIs:
+
+- Posix: `rename`
+- Windows: `ReplaceFile`
 
 ### Cache a computation using Numpy
 

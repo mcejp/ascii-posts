@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-07-24
+date: 2025-10-18
 title: "C++ notes"
 unlisted: true
 ---
@@ -43,6 +43,14 @@ unlisted: true
 - constexpr implies internal linkage, so it's like "static"
 - for long strings this might not be optimal if used by multiple
   compilation units (not sure if it will be deduplicated)
+
+## Dump list of symbols from largest to smallest
+
+    nm --demangle \
+       --print-size \
+       --size-sort \
+       --reverse-sort \
+       file.elf
 
 ## Embed any file in source code
 

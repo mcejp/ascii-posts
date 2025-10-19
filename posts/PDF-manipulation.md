@@ -1,10 +1,15 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-06-27
+date: 2025-10-18
 title: "PDF manipulation"
 unlisted: true
 ---
+
+#### Create empty page
+
+    convert xc:none -page A4 portrait.a4.pdf
+    convert xc:none -page 842x595 landscape.a4.pdf
 
 #### Search (grep) across PDF documents
 
@@ -21,11 +26,6 @@ Careful to not omit the last argument!
 
     pdfjam --a4paper --nup 2x1 in.pdf --outfile out.pdf --landscape
 
-#### Create empty page
-
-    convert xc:none -page A4 portrait.a4.pdf
-    convert xc:none -page 842x595 landscape.a4.pdf
-
 #### Extract pages
 
     qpdf thesis.pdf --pages . 31-38 -- extract.pdf
@@ -34,6 +34,10 @@ Careful to not omit the last argument!
 
     mkdir out
     pdfimages -all document.pdf out
+
+#### Plaintext to PDF (for printing)
+
+    pandoc -V geometry:margin=2cm -V papersize:a5 forth.txt -o forth.pdf
 
 #### Printing code (enscript)
 

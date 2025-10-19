@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-08-04
+date: 2025-10-18
 title: "Python notes"
 unlisted: true
 ---
@@ -207,6 +207,12 @@ if __name__ == "__main__":
 
 > The default Tableau colors are available in matplotlib via the 'tab:'
 > prefix:
+
+### Dynamic plots
+
+- [What is the currently correct way to dynamically update plots in
+  Jupyter/iPython?](https://stackoverflow.com/a/34486703)
+- <https://github.com/mcejp/Matplotlib-streaming-example>
 
 ### Hexagonal plots
 

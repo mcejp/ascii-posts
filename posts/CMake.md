@@ -1,8 +1,8 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-06-19
-title: "CMake tips & tricks"
+date: 2025-10-18
+title: "CMake"
 unlisted: true
 ---
 
@@ -78,13 +78,3 @@ To **delete** them instead:
 
     find . -type d -name "cmake-build*" \
         -ok rm -r -- {} \;
-
-#### Dump list of symbols from largest to smallest
-
-    nm --demangle \
-       --print-size \
-       --size-sort \
-       --reverse-sort \
-       file.elf
-
-TODO CMake integration
