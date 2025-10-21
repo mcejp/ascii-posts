@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
 |[DOS programming](posts/DOS-programming.html)|2025-10-18|
 |[Programming patterns](posts/Programming-patterns.html)|2025-10-18|
 |[CMake](posts/CMake.html)|2025-10-18|
@@ -37,7 +38,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
-|[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-04-21|
 |[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|
 |[Diary: How to add a REPL to STAK](posts/Diary-How-to-add-a-REPL-to-STAK.html)|2025-04-15|
 |[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
