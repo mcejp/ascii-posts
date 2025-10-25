@@ -46,16 +46,18 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
         if type["delimiters"]:
             lines: list[str] = note["body"].split("\n")
 
-            begin_line = lines.index("### PUBLISHED PART")
-            end_line = lines.index("### UNPUBLISHED PART")
+            # Support any heading level (# to ######) for delimiters
+            begin_line = next(i for i, line in enumerate(lines) if re.match(r'^#{1,6}\s+PUBLISHED PART\s*$', line.strip()))
+            end_line = next(i for i, line in enumerate(lines) if re.match(r'^#{1,6}\s+UNPUBLISHED PART\s*$', line.strip()))
             assert end_line > begin_line
 
             post = "\n".join(lines[begin_line + 1 : end_line])
         else:
             post = note["body"]
 
-            assert "### PUBLISHED PART" not in post
-            assert "### UNPUBLISHED PART" not in post
+            # Ensure no delimiter headings exist in non-delimited posts
+            assert not any(re.match(r'^#{1,6}\s+PUBLISHED PART\s*$', line.strip()) for line in post.split("\n"))
+            assert not any(re.match(r'^#{1,6}\s+UNPUBLISHED PART\s*$', line.strip()) for line in post.split("\n"))
     except Exception:
         print(f'error processing note "{note["title"]}":')
         traceback.print_exc()
