@@ -20,6 +20,12 @@ with open("config.toml", "rb") as f:
 out_dir = args.out_dir
 client = JoplinClient(port=config["port"], token=config["token"])
 
+# Squash previous history into a single commit
+# check_call("git update-ref -d refs/heads/site", shell=True, cwd=out_dir)
+# check_call("git checkout --orphan site", shell=True, cwd=out_dir)
+# check_call("git add -A", shell=True, cwd=out_dir)
+# check_call("git commit -m 'Generate site'", shell=True, cwd=out_dir)
+
 # clean output directory (we always rebuild the entire tree)
 for path in (out_dir / "posts").iterdir():
     if path.name == ".git":
