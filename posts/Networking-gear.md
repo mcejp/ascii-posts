@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-14
+date: 2025-10-23
 title: "Networking gear"
 unlisted: true
 ---
@@ -68,3 +68,7 @@ DKMS instructions:
 - 1x SFP+ + 8x 2.5 GbE:
   <https://www.cnx-software.com/2024/11/11/inexpensive-ampcom-8-port-2-5gbe-managed-switch-with-10gbe-spf-cage/>
   \$60 + tax
+
+## ZigBee
+
+- <https://www.cnx-software.com/2023/09/11/smlight-slzb-06m-zigbee-3-0-poe-adapter-silabs-efr32mg21-microcontroller/>

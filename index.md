@@ -13,18 +13,20 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2024-04-01|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Earth/World datasets](posts/Earth-World-datasets.html)|2025-10-26|
+|[Python notes](posts/Python-notes.html)|2025-10-25|
+|[Python cookbook](posts/Python-cookbook.html)|2025-10-25|
+|[Networking gear](posts/Networking-gear.html)|2025-10-23|
+|[Libraries](posts/Libraries.html)|2025-10-23|
+|[LISP](posts/LISP.html)|2025-10-22|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
 |[DOS programming](posts/DOS-programming.html)|2025-10-18|
-|[Programming patterns](posts/Programming-patterns.html)|2025-10-18|
 |[CMake](posts/CMake.html)|2025-10-18|
 |[C++ notes](posts/C++-notes.html)|2025-10-18|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-10-18|
 |[LaTeX](posts/LaTeX.html)|2025-10-18|
 |[Biome selection function](posts/Biome-selection-function.html)|2025-10-18|
-|[Python notes](posts/Python-notes.html)|2025-10-18|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2025-10-17|
-|[Networking gear](posts/Networking-gear.html)|2025-10-14|
-|[Earth/World datasets](posts/Earth-World-datasets.html)|2025-10-05|
 |[Marching squares](posts/Marching-squares.html)|2025-10-04|
 |[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-09-24|
@@ -33,7 +35,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-08-15|
 |[Hylang](posts/Hylang.html)|2025-08-09|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
-|[LISP](posts/LISP.html)|2025-06-23|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
@@ -56,7 +57,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|
 |[Software rasterizers](posts/Software-rasterizers.html)|2024-11-10|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2024-10-24|
-|[Libraries](posts/Libraries.html)|2024-10-24|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2024-07-21|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-07-21|

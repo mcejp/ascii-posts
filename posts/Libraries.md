@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-24
+date: 2025-10-23
 title: "Libraries"
 unlisted: true
 ---
@@ -35,6 +35,7 @@ ZeroRPC for RPC ?
 | Clipboard                            | <https://github.com/dacap/clip>                                      |
 | debugbreak                           | <https://github.com/scottt/debugbreak>                               |
 | Hex map operations                   | <https://aurelwu.github.io/>                                         |
+| HTTP/WS server                       | <https://github.com/mattgodbolt/seasocks>                            |
 | libnativefiledialog                  | or: <https://github.com/samhocevar/portable-file-dialogs.git>        |
 | Logging                              | spdlog                                                               |
 | Node Editor using ImGui              | <https://github.com/thedmd/imgui-node-editor>                        |

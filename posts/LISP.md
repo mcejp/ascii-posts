@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-06-23
+date: 2025-10-22
 title: "LISP"
 unlisted: true
 ---
@@ -53,3 +53,8 @@ Whitequark Racket/Rosette:
 
 - [Common Lisp: The Untold Story
   (2008)](https://nhplace.com/kent/Papers/cl-untold-story.html)
+
+#### Essays
+
+- [Selling Lisp by the
+  Pound](https://gist.github.com/no-defun-allowed/4f0a06e17b3ce74c6aeac514281f350f)

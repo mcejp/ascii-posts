@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-18
+date: 2025-10-25
 title: "Python notes"
 unlisted: true
 ---
@@ -9,10 +9,6 @@ unlisted: true
 ## Python
 
 ### Miscellaneous
-
-#### Check Python version
-
-If we only care about 3.x: `sys.version_info >= (3, 8)`
 
 #### Clean up outdated venvs after interpreter updated
 
@@ -25,64 +21,13 @@ If we only care about 3.x: `sys.version_info >= (3, 8)`
 
 <https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html#the-sphinx-docstring-format>
 
-#### Human-readable file size
-
-- Jinja:
-  [filesizeformat](https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.filesizeformat)
-
-- Generic:
-
-``` python
-# From https://stackoverflow.com/a/1094933
-def sizeof_fmt(num, suffix="B"):
-    for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
-        if abs(num) < 1024.0:
-            return f"{num:3.1f}{unit}{suffix}"
-        num /= 1024.0
-    return f"{num:.1f}Yi{suffix}"
-```
-
-- Alternative: [humanize.naturalsize(bytes, binary:
-  bool)](https://stackoverflow.com/a/15485265)
-
-#### How to join N lists?
-
-    itertools.chain(*list_of_lists)
-
 #### Perlin noise (reproducible)
 
 <https://github.com/mcejp/perlin-numpy>
 
-#### Print list of dicts as a table (quick-and-dirty)
-
-``` python
-def display_table(rows: list[dict]):
-    pad = 3
-    columns: list[str] = list(rows[0].keys())
-    widths = [max(len(col), *(len(row[col] or "") for row in rows)) for col in columns]
-    for col, width in zip(columns, widths):
-        print(col.ljust(width + pad), end="")
-    print()
-    for row in rows:
-        for col, width in zip(columns, widths):
-            print((row[col] or "").ljust(width + pad), end="")
-        print()
-```
-
 #### Qt packaging
 
 <https://build-system.fman.io/>
-
-#### Random color according to string hash
-
-``` python
-def generate_color(s):
-    hash_hex = hashlib.md5(s.encode()).hexdigest()
-    hue = int(hash_hex[:4], 16) / 0xFFFF
-    r, g, b = colorsys.hsv_to_rgb(hue, s=0.5, v=0.65)
-
-    return "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
-```
 
 #### Shortcut for `struct.unpack`
 
@@ -95,23 +40,6 @@ def u(f, format):
 #### Why not use `set` instead of `list`?
 
 Because `set()` is unordered and iteration order is randomized!
-
-### Argparse boilerplate
-
-``` python
-import argparse
-form pathlib import Path
-
-parser = argparse.ArgumentParser()
-parser.add_argument('-a', action='store_true')
-parser.add_argument('-b', action='store_true')
-parser.add_argument('-c', action='store_true')
-parser.add_argument('-i', '--intval', default=4, type=int, help='an int value')
-parser.add_argument('-f', default=3.3, type=float, help='a float value')
-parser.add_argument('-F', '--file', default='file_that_exists', type=argparse.FileType('w'), help='a filename')
-parser.add_argument("positional_arg", help='a string', type=Path)
-args = parser.parse_args()
-```
 
 ### Baseline setup for Python package projects
 
@@ -173,27 +101,6 @@ with open(OUTPUT, "wt") as f:
 
 Displaying animations:
 <https://github.com/pvigier/perlin-numpy?tab=readme-ov-file#3d-fractal-noise>
-
-## Logging
-
-### Logging boilerplate
-
-``` python
-import logging
-
-logger = logging.getLogger(__name__)
-
-# logger.debug, info, warn, error...
-logger.warn("Error: %s", error)
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    ...
-```
-
-### Structured logging
-
-?
 
 ## Matplotlib
 
