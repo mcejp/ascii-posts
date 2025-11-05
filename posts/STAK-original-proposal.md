@@ -6,7 +6,7 @@ title: "STAK original proposal"
 unlisted: true
 ---
 
-- sole type i16
+    - sole type i16
     - stack machine
     - local variables (by index)
     - global variables

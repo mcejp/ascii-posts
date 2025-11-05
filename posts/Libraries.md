@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-23
+date: 2025-11-03
 title: "Libraries"
 unlisted: true
 ---
@@ -17,6 +17,7 @@ unlisted: true
 | Fast I/O (to be reviewed)                  | <https://github.com/expnkx/fast_io>                             |
 | In-process key-value database              | ?                                                               |
 | Math expression parsing                    | <https://codeplea.com/tinyexpr>                                 |
+| MPEG1 decoder                              | <https://github.com/phoboslab/pl_mpeg>                          |
 | printf                                     | <https://github.com/charlesnicholson/nanoprintf>                |
 | Self-backdoor                              | <https://github.com/buserror/libmish>                           |
 | Small libc                                 | <https://github.com/managarm/mlibc>                             |

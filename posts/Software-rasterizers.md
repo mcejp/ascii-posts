@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-11-10
+date: 2025-11-04
 title: "Software rasterizers"
 unlisted: true
 ---
@@ -17,3 +17,4 @@ unlisted: true
   - Extended fork: <https://github.com/erysdren/TinyGL>
 - [BRender](https://blazingrender.net/)
   - Fork: <https://github.com/BlazingRenderer/BRender>
+- [tgx - a tiny 2D/3D graphics library](https://github.com/vindar/tgx)

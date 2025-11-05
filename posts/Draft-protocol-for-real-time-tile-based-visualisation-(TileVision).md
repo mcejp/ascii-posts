@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-10-24
+date: 2025-10-31
 title: "Draft protocol for real-time tile-based visualisation (TileVision)"
 unlisted: true
 ---
@@ -95,3 +95,4 @@ prior art:
 - <https://json-delta.readthedocs.io/en/latest/>
 - <https://datatracker.ietf.org/doc/html/rfc6902>
 - <https://github.com/ottypes/json1>
+- <https://en.wikipedia.org/wiki/Real-Time_Streaming_Protocol>

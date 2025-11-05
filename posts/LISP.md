@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-22
+date: 2025-10-31
 title: "LISP"
 unlisted: true
 ---
@@ -16,6 +16,11 @@ LISP 1 vs 2: <https://news.ycombinator.com/item?id=12799227>
   - Clojure (derivative)
 
 C++ interop: <https://news.ycombinator.com/item?id=32152462>
+
+- [Extension Language
+  Kit](https://en.wikipedia.org/wiki/Extension_Language_Kit) is a free
+  Scheme implementation which is embeddable in C and C++ programs (dead
+  as of 2024?)
 
 For MCU:
 
