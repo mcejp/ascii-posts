@@ -138,7 +138,7 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
             ---
 
             """))
-        f.write(post.strip())
+        f.write(post.rstrip())
         f.write("\n")
 
 
