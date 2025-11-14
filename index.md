@@ -13,17 +13,18 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-10-31|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[DOS programming](posts/DOS-programming.html)|2025-11-11|
+|[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-08|
+|[Hylang](posts/Hylang.html)|2025-11-07|
 |[Software rasterizers](posts/Software-rasterizers.html)|2025-11-04|
 |[Networking gear](posts/Networking-gear.html)|2025-11-04|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2025-11-04|
 |[Libraries](posts/Libraries.html)|2025-11-03|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
-|[Hylang](posts/Hylang.html)|2025-10-31|
 |[LISP](posts/LISP.html)|2025-10-31|
 |[Python notes](posts/Python-notes.html)|2025-10-25|
 |[Python cookbook](posts/Python-cookbook.html)|2025-10-25|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
-|[DOS programming](posts/DOS-programming.html)|2025-10-18|
 |[CMake](posts/CMake.html)|2025-10-18|
 |[C++ notes](posts/C++-notes.html)|2025-10-18|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-10-18|

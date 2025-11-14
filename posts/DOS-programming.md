@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-18
+date: 2025-11-11
 title: "DOS programming"
 unlisted: true
 ---

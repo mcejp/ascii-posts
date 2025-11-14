@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-31
+date: 2025-11-07
 title: "Hylang"
 unlisted: true
 ---
@@ -64,6 +64,19 @@ See
 (defn pairwise [lst]
   (let [it (iter lst)]
     (list (zip it it))))
+```
+
+### Switch on value type ('typecase' in CL)
+
+``` scheme
+(require hyrule [branch])
+
+(branch (isinstance my-value it)
+  str           "It's a string"
+  bytes         "It's a bytes object"
+  #(int float)  "It's numeric"
+  else          "I don't know")
+;; `ebranch` also exists
 ```
 
 ### Q: 2 or 4 spaces for indent?
