@@ -13,8 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-10-31|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-11-17|
+|[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-17|
+|[Marching squares](posts/Marching-squares.html)|2025-11-16|
 |[DOS programming](posts/DOS-programming.html)|2025-11-11|
-|[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-08|
 |[Hylang](posts/Hylang.html)|2025-11-07|
 |[Software rasterizers](posts/Software-rasterizers.html)|2025-11-04|
 |[Networking gear](posts/Networking-gear.html)|2025-11-04|
@@ -31,7 +33,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[LaTeX](posts/LaTeX.html)|2025-10-18|
 |[Biome selection function](posts/Biome-selection-function.html)|2025-10-18|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2025-10-17|
-|[Marching squares](posts/Marching-squares.html)|2025-10-04|
 |[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-09-24|
 |[CRON jobs logging & monitoring](posts/CRON-jobs-logging-&-monitoring.html)|2025-09-22|

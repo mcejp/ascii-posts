@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-04
+date: 2025-11-16
 title: "Marching squares"
 unlisted: true
 ---
@@ -61,7 +61,21 @@ strategies](../images/6a86b769199c2118724f55e2f9166e35.png)
 The simplest solution is to just choose one and stick to it (can also
 alternate based on x, y)
 
+### Indexing convention
+
+For tile look-up, it's useful to define a numbering convention, that is,
+a way that assigns indexes 0 to 15 to the 16 different combinations of
+corner values. The choice is completely arbitrary. I like the following
+one, since it is easy to remember:
+
+![1bcd16bd0cb15d349968ac9eb791cace.png](../images/1bcd16bd0cb15d349968ac9eb791cace.png)
+
+The tile look-up table then looks like this:
+
+![dcd1231eeb6ee55f6e810459ad2b3bbd.png](../images/dcd1231eeb6ee55f6e810459ad2b3bbd.png)
+
 ### Our implementation
 
 In Tilevision:
 <https://github.com/mcejp/tilevision/blob/41bbc61ff3e632a5084d55d8db73bea7498c9092/tilevision/path_util.py#L34>
+(note: uses a different indexing convention)
