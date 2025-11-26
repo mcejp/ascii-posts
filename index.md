@@ -13,13 +13,13 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-10-31|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Networking gear](posts/Networking-gear.html)|2025-11-21|
 |[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-11-17|
 |[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-17|
 |[Marching squares](posts/Marching-squares.html)|2025-11-16|
 |[DOS programming](posts/DOS-programming.html)|2025-11-11|
 |[Hylang](posts/Hylang.html)|2025-11-07|
 |[Software rasterizers](posts/Software-rasterizers.html)|2025-11-04|
-|[Networking gear](posts/Networking-gear.html)|2025-11-04|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2025-11-04|
 |[Libraries](posts/Libraries.html)|2025-11-03|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
@@ -76,5 +76,4 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Vue](posts/Vue.html)|2023-09-28|
 |[STAK original proposal](posts/STAK-original-proposal.html)|2023-09-04|
 |[Command-line interface conventions](posts/Command-line-interface-conventions.html)|2022-03-23|
-|[Plugins development / architecture](posts/Plugins-development-architecture.html)|2021-09-17|
 |[Texture synthesis](posts/Texture-synthesis.html)|2020-07-18|
