@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-16
+date: 2025-11-28
 title: "Marching squares"
 unlisted: true
 ---
@@ -64,7 +64,7 @@ alternate based on x, y)
 ### Indexing convention
 
 For tile look-up, it's useful to define a numbering convention, that is,
-a way that assigns indexes 0 to 15 to the 16 different combinations of
+a way of assigning indexes 0 to 15 to the 16 different combinations of
 corner values. The choice is completely arbitrary. I like the following
 one, since it is easy to remember:
 

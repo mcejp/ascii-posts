@@ -13,10 +13,11 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-10-31|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Python cookbook](posts/Python-cookbook.html)|2025-12-03|
+|[Marching squares](posts/Marching-squares.html)|2025-11-28|
 |[Networking gear](posts/Networking-gear.html)|2025-11-21|
 |[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-11-17|
 |[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-17|
-|[Marching squares](posts/Marching-squares.html)|2025-11-16|
 |[DOS programming](posts/DOS-programming.html)|2025-11-11|
 |[Hylang](posts/Hylang.html)|2025-11-07|
 |[Software rasterizers](posts/Software-rasterizers.html)|2025-11-04|
@@ -25,7 +26,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
 |[LISP](posts/LISP.html)|2025-10-31|
 |[Python notes](posts/Python-notes.html)|2025-10-25|
-|[Python cookbook](posts/Python-cookbook.html)|2025-10-25|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
 |[CMake](posts/CMake.html)|2025-10-18|
 |[C++ notes](posts/C++-notes.html)|2025-10-18|

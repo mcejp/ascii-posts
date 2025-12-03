@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-25
+date: 2025-12-03
 title: "Python cookbook"
 unlisted: true
 ---
@@ -146,4 +146,22 @@ def generate_color(s):
     r, g, b = colorsys.hsv_to_rgb(hue, s=0.5, v=0.65)
 
     return "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
+```
+
+### Sanitize variable name
+
+``` python
+import re
+
+def sanitize_var_name(s: str):
+    assert len(s) != 0, "Variable name can't be an empty string"
+
+    # Replace invalid characters with underscores
+    s = re.sub(r'[^A-Z0-9_]', '_', s)
+
+    # Ensure it starts with a letter or underscore
+    if s[0].isdigit():
+        s = '_' + s
+
+    return s
 ```
