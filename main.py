@@ -11,6 +11,7 @@ from asciiposts import JoplinClient, get_filtered_notes
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--commit", default=False, action="store_true")
 parser.add_argument("out_dir", type=Path)
 args = parser.parse_args()
 
@@ -171,5 +172,6 @@ with open(out_dir / "index.md", "wt") as f:
         if not note["starred"]:
             f.write(f"|[{decorated_title(note)}]({note['url']})|{format_date(note['user_updated_time'])}|\n")
 
-check_call("git add -A", shell=True, cwd=out_dir)
-check_call("git commit -m Update", shell=True, cwd=out_dir)
+if args.commit:
+    check_call("git add -A", shell=True, cwd=out_dir)
+    check_call("git commit -m Update", shell=True, cwd=out_dir)

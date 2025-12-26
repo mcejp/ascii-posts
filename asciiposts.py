@@ -2,6 +2,7 @@ import requests
 from requests.models import PreparedRequest
 
 
+# by the way, this exists (API client library): https://github.com/marph91/joppy
 class JoplinClient:
     def __init__(self, port, token):
         self._base_url = f"http://localhost:{port}"
