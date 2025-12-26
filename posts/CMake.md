@@ -1,16 +1,16 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-18
+date: 2025-12-26
 title: "CMake"
 unlisted: true
 ---
 
-#### Custom Python step in CMake build
+### Custom Python step in CMake build
 
 <https://gist.github.com/mcejp/06d225ae1620bdf0148eee6ec9db8e3b>
 
-#### Disassemble executable after build
+### Disassemble executable after build
 
 ``` cmake
 set(LISTING_PATH $<TARGET_FILE:${CMAKE_PROJECT_NAME}>)
@@ -23,7 +23,7 @@ add_custom_command(
         "Disassembling executable $<TARGET_FILE:${CMAKE_PROJECT_NAME}>")
 ```
 
-#### Embed a binary file in a C++ header as span\<uint8_t\>
+### Embed a binary file in a C++ header as span\<uint8_t\>
 
 1.  Grab
     [FileEmbed.cmake](https://gist.github.com/mcejp/52b1a5529dee3cb5bac2a27d1aa2dc06)
@@ -42,26 +42,28 @@ target_include_directories(my_target PRIVATE
                            "${CMAKE_CURRENT_BINARY_DIR}")
 ```
 
-#### Embed a binary file in a C header using xxd at build time
+### Embed a binary file in a C header using xxd at build time
 
 (untested! but based on well-known patterns)
 
-    function(xxd_generate_header SOURCE OUTPUT)
-        get_filename_component(SOURCE ${SOURCE} ABSOLUTE)
+``` cmake
+function(xxd_generate_header SOURCE OUTPUT)
+    get_filename_component(SOURCE ${SOURCE} ABSOLUTE)
 
-        # Watch out: This breaks if multiple targets reference $OUTPUT:
-        # https://cmake.org/cmake/help/latest/command/add_custom_command.html#example-generating-files-for-multiple-targets
-        add_custom_command(
-            OUTPUT
-                "${OUTPUT}"
-            COMMAND
-                xxd --include "${SOURCE}" > "${OUTPUT}"
-            DEPENDS
-                "${SOURCE}"
-            )
-    endfunction()
+    # Watch out: This breaks if multiple targets reference $OUTPUT:
+    # https://cmake.org/cmake/help/latest/command/add_custom_command.html#example-generating-files-for-multiple-targets
+    add_custom_command(
+        OUTPUT
+            "${OUTPUT}"
+        COMMAND
+            xxd --include "${SOURCE}" > "${OUTPUT}"
+        DEPENDS
+            "${SOURCE}"
+        )
+endfunction()
+```
 
-#### Convert a binary file directly to object file
+### Convert a binary file directly to object file
 
     objcopy --input binary \
         --output elf32-i386 \
@@ -69,7 +71,7 @@ target_include_directories(my_target PRIVATE
 
 (see <https://unix.stackexchange.com/a/176271>)
 
-#### Deep clean of build directories
+### Deep clean of build directories
 
     find . -type d -name "cmake-build*" \
         -exec sh -c 'cd "{}" && make clean' \;

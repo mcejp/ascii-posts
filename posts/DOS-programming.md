@@ -1,10 +1,12 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-11
+date: 2025-12-26
 title: "DOS programming"
 unlisted: true
 ---
+
+## General
 
 General intro: <https://alexfru.narod.ru/os/c16/c16.html>
 
@@ -61,7 +63,7 @@ IDEs:
 
 Sound library: <https://github.com/wbcbz7/sndlib-watcom>
 
-### Open Watcom
+## Open Watcom
 
 - docs: <https://www.openwatcom.org/ftp/manuals/current/>; is there
   something better (more browsable & searchable)?
@@ -74,13 +76,13 @@ int32_t mul16x16(int a, int b);
     parm [dx] [ax] value [dx ax] modify exact [ax dx];
 ```
 
-#### Detection
+### Detection
 
 <!-- from cguide.pdf -->
 
-Watcom C/C++ compiler: `__WATCOMC__`
+Detect Watcom C/C++ compiler: `#ifdef __WATCOMC__`
 
-CPU:
+Detect specific CPU:
 
     16-bit & 32-bit   16-bit     32-bit
     =======================================

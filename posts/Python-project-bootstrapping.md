@@ -1,15 +1,15 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-07-21
+date: 2025-12-26
 title: "Python project bootstrapping"
 unlisted: true
 ---
 
-The modern way: [use pyproject.toml
-only](https://github.com/mcejp/perlin-numpy/blob/master/pyproject.toml)
+The modern way -- [use pyproject.toml
+only](https://github.com/mcejp/perlin-numpy/blob/master/pyproject.toml).
 
-### Avoid these outdated mechanisms
+Avoid these outdated mechanisms:
 
 - distutils
 - [setup.py](https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html)
@@ -22,7 +22,7 @@ package in question in the environment where Sphinx is executed
 
 1.  Set up Sphinx:
 
-    sphinx-quickstart docs
+        sphinx-quickstart docs
 
 2.  In docs/conf.py, add the `sphinx.ext.autodoc` extension
 

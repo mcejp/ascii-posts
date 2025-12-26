@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-17
+date: 2025-12-04
 title: "ytdl-sub setup with Quadlet"
 unlisted: true
 ---
@@ -36,6 +36,10 @@ Volume=/media/nas/public/Video:/Video
 [Install]
 WantedBy=multi-user.target
 ```
+
+Run manually:
+
+    sudo podman exec --user 1000:1000 -it ytdl-sub ytdl-sub sub -o '--ytdl_options.max_downloads 3' --match FILTER
 
 TODO:
 

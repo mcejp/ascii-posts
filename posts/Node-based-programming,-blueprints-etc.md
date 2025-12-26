@@ -1,20 +1,24 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-08-15
+date: 2025-12-26
 title: "Node-based programming, blueprints etc."
 unlisted: true
 ---
 
-#### Editors/tools
+### Editors/tools
 
-- litegraph.js
-- Blender shaders
-- Unreal Blueprints
-- Node-RED
+- [Node-RED](https://nodered.org/)
+  ![stars](https://img.shields.io/github/stars/node-red) (event-driven
+  data processing)
+- [litegraph.js](https://github.com/jagenjo/litegraph.js)
+  ![stars](https://img.shields.io/github/stars/jagenjo/litegraph.js)
+- [Blender Geometry
+  Nodes](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html)
+- [Filter Forge](https://filterforge.com/) (for images/textures)
+- Unreal Engine Blueprints
 - qt plots; custom node editor: <https://www.pyqtgraph.org/>
 - Houdini
-- Filter Forge
 
 Not investigated yet:
 
@@ -23,24 +27,25 @@ Not investigated yet:
 - <https://github.com/wonderworks-software/PyFlow>
 - <https://github.com/Bycelium/PyFlow>
 
-#### Advantages
+### Advantages over plaintext code
 
 - up to a certain complexity, easier to skim or to follow data flow due
   to being 2D instead of 1D like code
 - for visual data, can see preview at different stages
 
-#### Problems of graph approach
+### Shortcomings
 
-- litegraph has issues, would have to maintain own fork
 - probably bound to get messy with complexity, as seen in Houdini WFC
   video
-- some stuff is ugly from the start (arithmetics)
-- not diff-able
+  - some stuff is ugly from the start -- any kind of non-trivial math,
+    for example
+- cannot use `diff` to visualize differences between versions of graph
+  -\> custom solutions required
 - more difficult to use existing library code
 - more difficult to compose/reuse graphs (lack of tooling)
-- prone to trigger OCD if layout is left to user
+- prone to trigger OCD if layout is left to user :)
 
-#### More thoughts
+### More thoughts
 
 A big value of schematics is how they can show different levels of
 abstraction. A given subset of a system can appear on different sheets

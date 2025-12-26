@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-31
+date: 2025-12-24
 title: "ASCII Posts"
 unlisted: true
 ---

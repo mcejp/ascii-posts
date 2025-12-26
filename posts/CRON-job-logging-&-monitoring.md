@@ -1,12 +1,12 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-09-22
-title: "CRON jobs logging & monitoring"
+date: 2025-12-26
+title: "CRON job logging & monitoring"
 unlisted: true
 ---
 
-#### Where to find CRON logs?
+### Where to find CRON logs?
 
 Start with `journalctl --unit crond -n all`.
 
@@ -16,7 +16,7 @@ forget to redirect stderr. Example that does both:
 
     systemd-cat -t example ./do-the-work.sh
 
-(then `journalctl -t example`)
+(view the logs with `journalctl -t example`)
 
 ### Health monitoring (dead man's switch)
 

@@ -6,7 +6,7 @@ title: "STAK: Tracking result arity in compiler"
 unlisted: true
 ---
 
-##### 2025-04-21
+#### 2025-04-21
 
 I.e. how to know how many values were produced by an expression? How to
 know if we need to insert a `zero` before `ret`?
@@ -46,7 +46,7 @@ conveyed by a function's `retc` property)
 
 <!-- Source: https://github.com/mcejp/STAK/blob/main/compile.hy -->
 
-##### 2025-10-19
+#### 2025-10-19
 
 With the introduction of `cond`, the flaws of the initial solution
 became more problematic. But a relatively simple solution was possible
