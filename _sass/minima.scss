@@ -49,3 +49,10 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+// Custom link hover style: inverse background instead of underline
+.page-content a:hover {
+  text-decoration: none;
+  background-color: $brand-color;
+  color: $background-color;
+}
