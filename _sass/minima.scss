@@ -56,3 +56,57 @@ $on-laptop:        800px !default;
   background-color: $brand-color;
   color: $background-color;
 }
+
+// Post sidebar - positioned outside content area
+.post-sidebar {
+  position: fixed;
+  top: 100px;
+  left: calc(50% + #{$content-width / 2} + 40px);
+  width: 250px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+
+  .toc {
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: $grey-color-dark;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      border-left: 2px solid $grey-color-light;
+      padding-left: 15px;
+
+      ul {
+        border-left: none;
+        margin-left: 10px;
+        padding-left: 10px;
+      }
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $grey-color;
+      font-size: 12px;
+      display: block;
+
+      &:hover {
+        color: $brand-color;
+        background-color: transparent;
+      }
+    }
+  }
+
+  // Hide sidebar when viewport is too narrow
+  @media screen and (max-width: #{$content-width + 550px}) {
+    display: none;
+  }
+}
