@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-04
+date: 2026-01-01
 title: "Earth/World datasets"
 unlisted: true
 ---
@@ -25,6 +25,8 @@ unlisted: true
 - Tiling: 14296 tiles of 1x1 degree
 - Format: zipped HGT
 - Size: 88 GB in 14296 files
+
+Coordinate system: ![SRTM_Overlap.jpg](../images/SRTM_Overlap.jpg)
 
 ### NASADEM
 
@@ -89,6 +91,8 @@ unlisted: true
 - Download: <https://worldcover2021.esa.int/downloader>
 - Manual:
   <https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/docs/WorldCover_PUM_V2.0.pdf>
+
+Coordinate system: ![esa-worldcover.png](../images/esa-worldcover.png)
 
 #### Japanese city polygons
 

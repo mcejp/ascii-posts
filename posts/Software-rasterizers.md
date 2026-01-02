@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-04
+date: 2025-12-26
 title: "Software rasterizers"
 unlisted: true
 ---
@@ -18,3 +18,4 @@ unlisted: true
 - [BRender](https://blazingrender.net/)
   - Fork: <https://github.com/BlazingRenderer/BRender>
 - [tgx - a tiny 2D/3D graphics library](https://github.com/vindar/tgx)
+- <https://github.com/Vogtinator/nGL>

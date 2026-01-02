@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-03
+date: 2025-12-26
 title: "Libraries"
 unlisted: true
 ---
@@ -28,26 +28,28 @@ ZeroRPC for RPC ?
 
 ## C++
 
-| purpose                              | library                                                              |
-|--------------------------------------|----------------------------------------------------------------------|
-| Assert                               | [maybe this](https://github.com/stephenmathieson/assertion-macros.h) |
-| Bit vector compression               | <https://github.com/lemire/EWAHBoolArray>                            |
-| Canvas                               | <https://github.com/a-e-k/canvas_ity>                                |
-| Clipboard                            | <https://github.com/dacap/clip>                                      |
-| debugbreak                           | <https://github.com/scottt/debugbreak>                               |
-| Hex map operations                   | <https://aurelwu.github.io/>                                         |
-| HTTP/WS server                       | <https://github.com/mattgodbolt/seasocks>                            |
-| libnativefiledialog                  | or: <https://github.com/samhocevar/portable-file-dialogs.git>        |
-| Logging                              | spdlog                                                               |
-| Node Editor using ImGui              | <https://github.com/thedmd/imgui-node-editor>                        |
-| Observable                           | <https://github.com/dacap/observable>                                |
-| Triangulation of polygons            | <https://github.com/ruslashev/poly2tri>                              |
-| Triangulation of polygons (not only) | <https://github.com/micro-gl/micro-tess>                             |
-| Qt Markdown                          | <https://github.com/pbek/qmarkdowntextedit>                          |
-| Qt MVVM                              | <https://github.com/gpospelov/qt-mvvm>                               |
-| Serialization                        | <https://github.com/KonanM/tser>                                     |
-| SW rendering                         | <https://github.com/Vogtinator/nGL>                                  |
-| WebView                              | <https://github.com/webview/webview>                                 |
+| purpose                 | library                                                              |
+|-------------------------|----------------------------------------------------------------------|
+| Assert                  | [maybe this](https://github.com/stephenmathieson/assertion-macros.h) |
+| Bit vector compression  | <https://github.com/lemire/EWAHBoolArray>                            |
+| Canvas                  | <https://github.com/a-e-k/canvas_ity>                                |
+| Clipboard               | <https://github.com/dacap/clip>                                      |
+| debugbreak              | <https://github.com/scottt/debugbreak>                               |
+| Hex map operations      | <https://aurelwu.github.io/>                                         |
+| HTTP/WS server          | <https://github.com/mattgodbolt/seasocks>                            |
+| libnativefiledialog     | or: <https://github.com/samhocevar/portable-file-dialogs.git>        |
+| Logging                 | spdlog                                                               |
+| Node Editor using ImGui | <https://github.com/thedmd/imgui-node-editor>                        |
+| Observable              | <https://github.com/dacap/observable>                                |
+| Qt Markdown             | <https://github.com/pbek/qmarkdowntextedit>                          |
+| Qt MVVM                 | <https://github.com/gpospelov/qt-mvvm>                               |
+| Serialization           | <https://github.com/KonanM/tser>                                     |
+| WebView                 | <https://github.com/webview/webview>                                 |
+
+See also:
+
+- [Computational geometry](Computational-geometry.html)
+- [Software rasterizers](Software-rasterizers.html)
 
 #### Argument parsing
 

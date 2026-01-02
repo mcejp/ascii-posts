@@ -54,3 +54,8 @@ styling, hosted with GitHub Pages. It works like this:
   behavior
 - SEO aspects
   - markup in front page
+
+### Similar websites
+
+- <https://notes.shanakadesoysa.com/> (using mkdocs)
+- <https://sarcasm.github.io/notes/index.html> (using Sphinx)

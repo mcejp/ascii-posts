@@ -6,9 +6,29 @@ title: "CMake"
 unlisted: true
 ---
 
+### Convert a binary file directly to object file
+
+    objcopy --input binary \
+        --output elf32-i386 \
+        --binary-architecture i386 foo foo.o
+
+(see <https://unix.stackexchange.com/a/176271>)
+
 ### Custom Python step in CMake build
 
 <https://gist.github.com/mcejp/06d225ae1620bdf0148eee6ec9db8e3b>
+
+### Deep clean of build directories
+
+Clean all `cmake-build*` directories:
+
+    find . -type d -name "cmake-build*" \
+        -exec sh -c 'cd "{}" && make clean' \;
+
+Delete all `cmake-build*` directories:
+
+    find . -type d -name "cmake-build*" \
+        -ok rm -r -- {} \;
 
 ### Disassemble executable after build
 
@@ -63,20 +83,6 @@ function(xxd_generate_header SOURCE OUTPUT)
 endfunction()
 ```
 
-### Convert a binary file directly to object file
+### Optional dependencies
 
-    objcopy --input binary \
-        --output elf32-i386 \
-        --binary-architecture i386 foo foo.o
-
-(see <https://unix.stackexchange.com/a/176271>)
-
-### Deep clean of build directories
-
-    find . -type d -name "cmake-build*" \
-        -exec sh -c 'cd "{}" && make clean' \;
-
-To **delete** them instead:
-
-    find . -type d -name "cmake-build*" \
-        -ok rm -r -- {} \;
+See here: <https://sarcasm.github.io/notes/dev/cmake.html#id7>

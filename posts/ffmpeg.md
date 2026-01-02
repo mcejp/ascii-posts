@@ -1,14 +1,21 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2023-12-10
+date: 2025-12-28
 title: "ffmpeg"
 unlisted: true
 ---
 
-### Lossless
+### Lossless editing
 
-! <https://github.com/mifi/lossless-cut>
+Simple cut:
+
+    # skip to 1:01:45.00 and take 15m30s
+    ffmpeg -ss 1:01:45 -t 15:30 -i input.mkv -c copy output.mkv
+
+More sophisticated: <https://github.com/mifi/lossless-cut>
+
+### Lossless encoding
 
 <https://superuser.com/a/522853> `-c:v libx264 -crf 0 -preset ultrafast`
 

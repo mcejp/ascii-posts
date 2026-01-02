@@ -13,23 +13,26 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
+|[ffmpeg](posts/ffmpeg.html)|2025-12-28|
+|[Libraries](posts/Libraries.html)|2025-12-26|
+|[Software rasterizers](posts/Software-rasterizers.html)|2025-12-26|
+|[Computational geometry](posts/Computational-geometry.html)|2025-12-26|
+|[Marching squares](posts/Marching-squares.html)|2025-12-26|
+|[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache?.html)|2025-12-26|
+|[CMake](posts/CMake.html)|2025-12-26|
 |[JavaScript/ECMAScript implementations](posts/JavaScript-ECMAScript-implementations.html)|2025-12-26|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2025-12-26|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-12-26|
 |[CRON job logging & monitoring](posts/CRON-job-logging-&-monitoring.html)|2025-12-26|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-12-26|
-|[CMake](posts/CMake.html)|2025-12-26|
 |[DOS programming](posts/DOS-programming.html)|2025-12-26|
-|[Marching squares](posts/Marching-squares.html)|2025-12-26|
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-12-04|
 |[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-12-04|
 |[Python cookbook](posts/Python-cookbook.html)|2025-12-03|
 |[Networking gear](posts/Networking-gear.html)|2025-11-21|
 |[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-17|
 |[Hylang](posts/Hylang.html)|2025-11-07|
-|[Software rasterizers](posts/Software-rasterizers.html)|2025-11-04|
-|[Earth/World datasets](posts/Earth-World-datasets.html)|2025-11-04|
-|[Libraries](posts/Libraries.html)|2025-11-03|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
 |[LISP](posts/LISP.html)|2025-10-31|
 |[Python notes](posts/Python-notes.html)|2025-10-25|
@@ -51,7 +54,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
 |[Random interesting GitHub projects](posts/Random-interesting-GitHub-projects.html)|2025-03-16|
 |[USB in FPGA](posts/USB-in-FPGA.html)|2025-03-14|
-|[Boolean mesh operations](posts/Boolean-mesh-operations.html)|2025-03-14|
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|
@@ -72,7 +74,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|
 |[Bitstream dynamic rebuilding](posts/Bitstream-dynamic-rebuilding.html)|2024-01-03|
 |[Load testing](posts/Load-testing.html)|2024-01-03|
-|[ffmpeg](posts/ffmpeg.html)|2023-12-10|
 |[Vue](posts/Vue.html)|2023-09-28|
 |[STAK original proposal](posts/STAK-original-proposal.html)|2023-09-04|
 |[Command-line interface conventions](posts/Command-line-interface-conventions.html)|2022-03-23|

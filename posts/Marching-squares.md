@@ -11,7 +11,8 @@ general description of the algorithm; here we focus on the specific case
 where input samples are binary (0/1, background/foreground, empty/full,
 water/land...)
 
-Somewhat related: <https://doc.mapeditor.org/en/stable/manual/terrain/>
+Somewhat related: [*Terrains* in
+Tiled](https://doc.mapeditor.org/en/stable/manual/terrain/)
 
 ## Coordinate system
 
@@ -22,7 +23,7 @@ There are two possible interpretations of the input coordinate system;
 this makes no difference to the algorithm itself, it just changes how
 you would display the result.
 
-### Samples in cells *corners*
+### Samples in cell *corners*
 
 Grid and sample coordinates are integers.
 
