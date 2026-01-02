@@ -23,7 +23,7 @@ title: ASCII Posts
 # description: >-
 #   ...for fun and profit
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ascii.mcejp.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://notes.mcejp.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  mcejp
 
