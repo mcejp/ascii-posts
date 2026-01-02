@@ -1,4 +1,4 @@
-Intro: [ASCII Posts](https://ascii.mcejp.com/posts/ASCII-Posts.html)
+Intro: [ASCII Posts](https://notes.mcejp.com/posts/ASCII-Posts.html)
 
 Prerequisities:
 - Joplin with Web Clipper server enabled

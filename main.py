@@ -10,6 +10,28 @@ import traceback
 from asciiposts import JoplinClient, get_filtered_notes
 
 
+def format_date(timestamp):
+    """Convert Joplin timestamp (ms) to ISO date string."""
+    return datetime.datetime.fromtimestamp(timestamp / 1000).date().isoformat()
+
+
+def slugify(filename: str):
+    """Convert a note title to a URL-safe filename slug."""
+    filename = filename.replace(" ", "-")
+    filename = filename.replace("/", "-")
+    filename = filename.replace(":", "-")
+    while "--" in filename:
+        filename = filename.replace("--", "-")  # just because it's nicer
+    while filename.endswith("."):
+        filename = filename[:-1]
+
+    assert "/" not in filename
+    assert "\\" not in filename
+    assert filename not in {"", ".", ".."}
+
+    return filename
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--commit", default=False, action="store_true")
 parser.add_argument("out_dir", type=Path)
@@ -40,11 +62,15 @@ we have 2 types (sets) of notes:
 - notes that are published in full
 """
 
+# Pre-fetch all notes and build ID => slug mapping for internal link resolution
+all_notes = list(get_filtered_notes(client, publish_tag=config["publish_tag"]))
+note_id_to_slug = {note["id"]: slugify(note["title"]) for _, note in all_notes}
+
 index = []
 
 # build post list
 # TODO: sort by timestamp
-for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
+for type, note in all_notes:
     # import json; print(json.dumps(note, indent=2))
 
     note_tags = [tag["title"] for tag in client.get(f"/notes/{note['id']}/tags")["items"]]
@@ -97,25 +123,22 @@ for type, note in get_filtered_notes(client, publish_tag=config["publish_tag"]):
 
     post = re.sub(pattern, replace_image, post)
 
-    # slug-ify file name
-    def slugify(filename: str):
-        filename = filename.replace(" ", "-")
-        filename = filename.replace("/", "-")
-        filename = filename.replace(":", "-")
-        while "--" in filename:
-            filename = filename.replace("--", "-")  # just because it's nicer
-        while filename.endswith("."):
-            filename = filename[:-1]
-        return filename
+    # Process internal note links: [text](:/note_id) => [text](slug.html)
+    link_pattern = r'(?<!!)\[(.*?)\]\(:/([a-f0-9]{32})\)'
 
-    def format_date(timestamp):
-        return datetime.datetime.fromtimestamp(timestamp / 1000).date().isoformat()
+    def replace_internal_link(match):
+        link_text, target_note_id = match.groups()
 
-    filename = slugify(note["title"])
+        if target_note_id in note_id_to_slug:
+            target_slug = note_id_to_slug[target_note_id]
+            return f"[&#x1f4dd; {link_text}]({target_slug}.html)"
+        else:
+            print(f'  Warning: Link to unpublished note {target_note_id} in "{note["title"]}"')
+            return link_text  # Strip link, keep text
 
-    assert "/" not in filename
-    assert "\\" not in filename
-    assert filename not in {"", ".", ".."}
+    post = re.sub(link_pattern, replace_internal_link, post)
+
+    filename = note_id_to_slug[note["id"]]
 
     # Necessary in order to linkify URLs
     post = check_output(["pandoc", "-f", "gfm", "-t", "gfm"],
