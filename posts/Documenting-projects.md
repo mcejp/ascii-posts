@@ -189,7 +189,7 @@ Limitations:
 - very difficult to keep a recorded talk up-to-date in face of change
 - not searchable with current technology, difficult to skim a video
 
-You can find more of my opinions on this topic in [this
+You can find more of my opinions on this topic in [📝 this
 post](Making-impactful-presentations.html).
 
 ## Figures

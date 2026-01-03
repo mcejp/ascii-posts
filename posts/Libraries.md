@@ -48,8 +48,8 @@ ZeroRPC for RPC ?
 
 See also:
 
-- [Computational geometry](Computational-geometry.html)
-- [Software rasterizers](Software-rasterizers.html)
+- [📝 Computational geometry](Computational-geometry.html)
+- [📝 Software rasterizers](Software-rasterizers.html)
 
 #### Argument parsing
 
