@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-21
+date: 2026-01-08
 title: "Networking gear"
 unlisted: true
 ---
@@ -11,6 +11,8 @@ unlisted: true
 ### NIC
 
 #### RTL8125 (PCIe)
+
+- <https://www.servethehome.com/brostrend-2-5gbe-pcie-network-adapter-mini-review/>
 
 #### RTL8156 (USB)
 
@@ -23,6 +25,11 @@ Should be supported as of [Linux
   48 CHF
 - <https://www.digitec.ch/en/s1/product/tp-link-8-port-25g-desktop-switch-tl-sg108-m2-unmanaged-network-switches-15681383?tagIds=7-1377>
   65 CHF
+- <https://www.servethehome.com/the-ultimate-cheap-2-5gbe-switch-mega-round-up-buyers-guide-qnap-netgear-hasivo-mokerlink-trendnet-zyxel-tp-link/>
+- [NETGEAR
+  MS305](https://www.netgear.com/business/wired/switches/unmanaged/ms305/)
+  / [NETGEAR
+  MS308](https://www.netgear.com/business/wired/switches/unmanaged/ms308/)
 
 ## 5 GbE
 
@@ -53,6 +60,7 @@ DKMS instructions:
 #### RTL8127 (PCIe)
 
 - <https://www.cnx-software.com/2025/09/05/buy-realtek-rtl8127-10gbe-pcie-cards-and-m2-modules/>
+- <https://www.servethehome.com/cheap-10gbe-realtek-rtl8127-nic-review/>
 
 #### RTL8159 (USB 3.2)
 

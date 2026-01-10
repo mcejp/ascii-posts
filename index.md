@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Networking gear](posts/Networking-gear.html)|2026-01-08|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
 |[ffmpeg](posts/ffmpeg.html)|2025-12-28|
 |[Libraries](posts/Libraries.html)|2025-12-26|
@@ -30,7 +31,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-12-04|
 |[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-12-04|
 |[Python cookbook](posts/Python-cookbook.html)|2025-12-03|
-|[Networking gear](posts/Networking-gear.html)|2025-11-21|
 |[Photoview minimalist setup with Podman](posts/Photoview-minimalist-setup-with-Podman.html)|2025-11-17|
 |[Hylang](posts/Hylang.html)|2025-11-07|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
