@@ -20,6 +20,7 @@ def slugify(filename: str):
     filename = filename.replace(" ", "-")
     filename = filename.replace("/", "-")
     filename = filename.replace(":", "-")
+    filename = filename.replace("?", "-")
     while "--" in filename:
         filename = filename.replace("--", "-")  # just because it's nicer
     while filename.endswith("."):
