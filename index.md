@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-01-19|
 |[Networking gear](posts/Networking-gear.html)|2026-01-08|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
 |[ffmpeg](posts/ffmpeg.html)|2025-12-28|
@@ -20,7 +21,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Software rasterizers](posts/Software-rasterizers.html)|2025-12-26|
 |[Computational geometry](posts/Computational-geometry.html)|2025-12-26|
 |[Marching squares](posts/Marching-squares.html)|2025-12-26|
-|[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache?.html)|2025-12-26|
+|[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|
 |[CMake](posts/CMake.html)|2025-12-26|
 |[JavaScript/ECMAScript implementations](posts/JavaScript-ECMAScript-implementations.html)|2025-12-26|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2025-12-26|
@@ -58,7 +59,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|
 |[Retro gamedev links](posts/Retro-gamedev-links.html)|2025-03-13|
-|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2025-03-09|
 |[BASIC](posts/BASIC.html)|2024-12-22|
 |[LVM](posts/LVM.html)|2024-12-06|
 |[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|

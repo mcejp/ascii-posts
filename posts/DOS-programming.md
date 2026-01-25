@@ -50,7 +50,7 @@ IDEs:
 
 - [CLion](https://github.com/open-watcom/open-watcom-v2/issues/596#issuecomment-1200146390)
 - Turbo C/C++ & Borland C++
-  - [Turbo C++](https://en.wikipedia.org/wiki/Turbo_C%2B%2B) was
+  - > [Turbo C++](https://en.wikipedia.org/wiki/Turbo_C%2B%2B) was
     > marketed toward the hobbyist and entry-level compiler market,
     > while [Borland C++](https://en.wikipedia.org/wiki/Borland_C%2B%2B)
     > targeted the professional application development market.
