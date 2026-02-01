@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-01-19
+date: 2026-01-30
 title: "Jim Keller talks and interviews"
 unlisted: true
 ---
@@ -24,6 +24,8 @@ unlisted: true
 | 2024-07-22 | [61DAC Keynote: Jim Keller, CEO, Tenstorrent](https://www.youtube.com/watch?v=cy-9Jl666Aw) | 42:47 |
 | 2024-10-14 | [Oral History of Jim Keller](https://youtu.be/Xh8nhK7WS80) | 1:44:31 |
 | 2025-03-09 | [What Jim Keller Sees that Others Miss – DemystifySci \#326](https://youtu.be/lMmzEvlf6RA) | 2:21:03 |
+| 2025-05-11 | [Tetralogue on the Liquid Sun Revolution- Dr. P.M. Robitaille & Jim Keller, DemystifySci \#342](https://youtu.be/hM8Ms_Qk_XE) | 2:53:54 |
+| 2025-10-14 | [The Architecture of "Open" Intelligence](https://youtu.be/gZ7EIzYmc9I) | 44:25 |
 
 Other lists to check out:
 

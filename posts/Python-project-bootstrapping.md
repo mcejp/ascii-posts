@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-12-26
+date: 2026-01-31
 title: "Python project bootstrapping"
 unlisted: true
 ---
@@ -14,6 +14,8 @@ Avoid these outdated mechanisms:
 - distutils
 - [setup.py](https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html)
 - setup.cfg
+
+Use [uv](https://docs.astral.sh/uv/).
 
 ## Sphinx API docs
 

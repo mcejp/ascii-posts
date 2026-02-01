@@ -13,8 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
-|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-01-19|
-|[Networking gear](posts/Networking-gear.html)|2026-01-08|
+|[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-01-31|
+|[Networking gear](posts/Networking-gear.html)|2026-01-31|
+|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-01-30|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
 |[ffmpeg](posts/ffmpeg.html)|2025-12-28|
 |[Libraries](posts/Libraries.html)|2025-12-26|
@@ -24,7 +26,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|
 |[CMake](posts/CMake.html)|2025-12-26|
 |[JavaScript/ECMAScript implementations](posts/JavaScript-ECMAScript-implementations.html)|2025-12-26|
-|[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2025-12-26|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-12-26|
 |[CRON job logging & monitoring](posts/CRON-job-logging-&-monitoring.html)|2025-12-26|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-12-26|
@@ -63,7 +64,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[LVM](posts/LVM.html)|2024-12-06|
 |[Allwinner D1s/F133 notes](posts/Allwinner-D1s-F133-notes.html)|2024-12-04|
 |[Download a playlist with ytdl-sub](posts/Download-a-playlist-with-ytdl-sub.html)|2024-09-23|
-|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2024-07-21|
 |[Crash reporting](posts/Crash-reporting.html)|2024-06-19|
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[SQL](posts/SQL.html)|2024-04-07|

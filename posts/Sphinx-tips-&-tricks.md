@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-07-21
+date: 2026-01-31
 title: "Sphinx tips & tricks"
 unlisted: true
 ---
@@ -22,6 +22,9 @@ Q: Example of Sphinx-\>GitHub Pages CI?
 
 - A:
   <https://github.com/mcejp/propel/blob/master/.github/workflows/pages.yaml>
+- More recent (2026-01):
+  <https://github.com/mcejp/procgenlib/blob/master/.github/workflows/pages.yaml>
+  - build always, publish only for master
 
 ### Alternatives
 
