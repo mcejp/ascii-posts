@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-01-31
+date: 2026-02-04
 title: "Sphinx tips & tricks"
 unlisted: true
 ---
@@ -39,6 +39,31 @@ Q: Example of Sphinx-\>GitHub Pages CI?
 - hugo
 - "one of the main reasons why we selected docusaurus is because of the
   search engine, far better compared with the mkdocs."
+
+### GitLab Pages
+
+``` yaml
+docs-build:
+  image: ...
+  needs: []
+  script:
+  - ...
+  artifacts:
+    paths:
+    - public
+
+pages:
+  image: ...
+  needs: [docs-build]
+  script:
+  - echo Deploying Pages
+  artifacts:
+    paths:
+    - public
+  rules:
+    # Deploy only on push to master
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+```
 
 ### GitLab: Publish docs on tag push, use tag name as version
 

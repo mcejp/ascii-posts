@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-01-30
+date: 2026-02-16
 title: "Jim Keller talks and interviews"
 unlisted: true
 ---
@@ -16,6 +16,7 @@ unlisted: true
 | 2022-11-16 | [Change with Jim Keller](https://www.youtube.com/watch?v=hGq4nGESG0I) | 56:53 |
 | 2022-11-18 | [Designing in 2023: 10 Problems to Solve](https://www.youtube.com/watch?v=o70yKYWgtVI) | 21:13 |
 | 2022-04-27 | [Future of Compute](https://www.youtube.com/watch?v=OvgdU5FkG-0) | 1:36:02 |
+| 2023-02-25 | [\[24b\] Jim Keller Interview 2: AI Hardware on PCIe Cards](https://youtu.be/YOiXomG9FhE) | 34:23 |
 | 2023-06-28 | [Andes RISC V Con 2023 Panel](https://www.youtube.com/watch?v=4vI0SQmZB_w) | 56:29 |
 | 2023-06-09 | [Jim Keller on AI, RISC-V, Tenstorrent’s Move to Edge IP](https://youtu.be/_MrGNlXRi9M) | 48:13 |
 | 2023-09-12 | [AI Hardware w/ Jim Keller](https://www.youtube.com/watch?v=lPX1H3jW8ZQ) | 33:28 |
