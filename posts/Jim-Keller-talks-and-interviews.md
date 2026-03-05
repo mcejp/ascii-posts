@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-02-16
+date: 2026-03-04
 title: "Jim Keller talks and interviews"
 unlisted: true
 ---
@@ -11,6 +11,7 @@ unlisted: true
 | 2020-02-05 | [Jim Keller: Moore's Law, Microprocessors, and First Principles](https://youtu.be/Nb2tebYAaOA) | 1:34:43 |
 | 2020-04-20 | [Jim Keller - Moore's Law in the age of AI Chips](https://youtu.be/8eT1jaHmlx8) | 31:05 |
 | 2021-02-18 | [Jim Keller: The Future of Computing, AI, Life, and Consciousness](https://www.youtube.com/watch?v=G4hL5Om4IJ4) | 2:39:14 |
+| 2021-06-14 | [\[6\] Ljubisa Bajic and Jim Keller, Tenstorrent](https://www.youtube.com/watch?v=sMvudTBBQNw) | 1:23:32 |
 | 2021-06-21 | [Ian Interviews \#7: Jim Keller, Silicon Wizard 🧙‍♂️](https://www.youtube.com/watch?v=AFVDZeg4RVY) | 1:37:11 |
 | 2022-07-22 | [Zeroes and Ones: Into the Depths of Computation](https://youtu.be/1TmuJSbms9c) | 2:17:57 |
 | 2022-11-16 | [Change with Jim Keller](https://www.youtube.com/watch?v=hGq4nGESG0I) | 56:53 |

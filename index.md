@@ -13,7 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
-|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-02-16|
+|[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-03-04|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-02-04|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
 |[Networking gear](posts/Networking-gear.html)|2026-01-31|
