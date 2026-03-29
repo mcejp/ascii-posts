@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-18
+date: 2026-03-28
 title: "C++ notes"
 unlisted: true
 ---
@@ -35,6 +35,8 @@ unlisted: true
   library underneath (this can suck on niche platforms)
 
 ## Constants (in headers)
+
+Simple `constexpr` looks like the way to go.
 
 ### Strings (C++11)
 
@@ -74,6 +76,13 @@ See <https://stackoverflow.com/a/2077957>, "Like Git Does It"
 #pragma GCC diagnostic error "-Wswitch-enum"
 ```
 
+## Enum class implicitly convertible to int
+
+Not possible. Some alternatives:
+
+- use a namespace with an anonymous enum
+- use a namespace with individual constexpr declarations
+
 ## Inline assembly
 
 Q: `asm`, `__asm`, `__asm__`?
@@ -106,5 +115,17 @@ See
 
 ## Misc
 
+[Resize std::vector without
+initialization](https://stackoverflow.com/a/21028912)
+
 Some wild macros:
 [systemd/src/fundamental/macro-fundamental.h](https://github.com/systemd/systemd/blob/603916702dabb55f7f9553af7cb6adf49b707dee/src/fundamental/macro-fundamental.h)
+
+- DECLARE_NOALLOC_SECTION
+- ELEMENTSOF
+- FOREACH_ARRAY
+- ONCE
+- PROJECT_FILE
+- UNIQ
+- typeof_field
+- sizeof_field
