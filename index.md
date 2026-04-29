@@ -13,15 +13,17 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-04-24|
+|[Networking gear](posts/Networking-gear.html)|2026-04-24|
+|[Libraries](posts/Libraries.html)|2026-04-23|
+|[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
+|[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
+|[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
 |[C++ notes](posts/C++-notes.html)|2026-03-28|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-03-04|
-|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-02-04|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
-|[Networking gear](posts/Networking-gear.html)|2026-01-31|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
 |[ffmpeg](posts/ffmpeg.html)|2025-12-28|
-|[Libraries](posts/Libraries.html)|2025-12-26|
-|[Software rasterizers](posts/Software-rasterizers.html)|2025-12-26|
 |[Computational geometry](posts/Computational-geometry.html)|2025-12-26|
 |[Marching squares](posts/Marching-squares.html)|2025-12-26|
 |[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|
@@ -68,7 +70,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Git vs RDBMS as data store](posts/Git-vs-RDBMS-as-data-store.html)|2024-04-27|
 |[SQL](posts/SQL.html)|2024-04-07|
 |[UUID / GUID](posts/UUID-GUID.html)|2024-04-07|
-|[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2024-04-01|
 |[Game engines](posts/Game-engines.html)|2024-03-27|
 |[Disk usage analysis tools](posts/Disk-usage-analysis-tools.html)|2024-03-17|
 |[Ideas for a SQL replacement](posts/Ideas-for-a-SQL-replacement.html)|2024-01-05|

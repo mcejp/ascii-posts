@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2024-04-01
+date: 2026-04-13
 title: "Open-source software supply chain attacks"
 unlisted: true
 ---
@@ -15,3 +15,7 @@ unlisted: true
 ### PyPI
 
 <https://arstechnica.com/security/2024/03/pypi-halted-new-users-and-projects-while-it-fended-off-supply-chain-attack/>
+
+### 2026: LiteLLM
+
+<https://github.com/BerriAI/litellm/issues/24512>

@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-01-31
+date: 2026-04-24
 title: "Networking gear"
 unlisted: true
 ---
@@ -76,6 +76,10 @@ DKMS instructions:
 - 1x SFP+ + 8x 2.5 GbE:
   <https://www.cnx-software.com/2024/11/11/inexpensive-ampcom-8-port-2-5gbe-managed-switch-with-10gbe-spf-cage/>
   \$60 + tax
+
+## Cellular
+
+- <https://www.cnx-software.com/2026/04/01/digi-ix25-a-rugged-5g-redcap-embb-industrial-cellular-router/>
 
 ## ZigBee
 
