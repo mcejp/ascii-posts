@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-25
+date: 2026-05-14
 title: "Python notes"
 unlisted: true
 ---
@@ -101,6 +101,8 @@ with open(OUTPUT, "wt") as f:
 
 Displaying animations:
 <https://github.com/pvigier/perlin-numpy?tab=readme-ov-file#3d-fractal-noise>
+
+Tables (HTML): <https://pypi.org/project/tabulate/>
 
 ## Matplotlib
 

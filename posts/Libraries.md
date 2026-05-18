@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-04-23
+date: 2026-05-05
 title: "Libraries"
 unlisted: true
 ---
@@ -18,6 +18,7 @@ unlisted: true
 | In-process key-value database | ? |
 | Math expression parsing | <https://codeplea.com/tinyexpr> |
 | MPEG1 decoder | <https://github.com/phoboslab/pl_mpeg> |
+| Navigation mesh | <https://github.com/recastnavigation/recastnavigation> |
 | printf | <https://github.com/charlesnicholson/nanoprintf> |
 | Self-backdoor | <https://github.com/buserror/libmish> |
 | Small libc | <https://github.com/managarm/mlibc> |

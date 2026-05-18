@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-08-19
+date: 2026-05-17
 title: "Git"
 unlisted: true
 ---

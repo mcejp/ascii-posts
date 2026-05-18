@@ -13,9 +13,12 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Git](posts/Git.html)|2026-05-17|
+|[Python notes](posts/Python-notes.html)|2026-05-14|
+|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-05-12|
+|[Libraries](posts/Libraries.html)|2026-05-05|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-04-24|
 |[Networking gear](posts/Networking-gear.html)|2026-04-24|
-|[Libraries](posts/Libraries.html)|2026-04-23|
 |[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
 |[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
@@ -29,7 +32,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|
 |[CMake](posts/CMake.html)|2025-12-26|
 |[JavaScript/ECMAScript implementations](posts/JavaScript-ECMAScript-implementations.html)|2025-12-26|
-|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2025-12-26|
 |[CRON job logging & monitoring](posts/CRON-job-logging-&-monitoring.html)|2025-12-26|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-12-26|
 |[DOS programming](posts/DOS-programming.html)|2025-12-26|
@@ -40,13 +42,11 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Hylang](posts/Hylang.html)|2025-11-07|
 |[Draft protocol for real-time tile-based visualisation (TileVision)](posts/Draft-protocol-for-real-time-tile-based-visualisation-(TileVision).html)|2025-10-31|
 |[LISP](posts/LISP.html)|2025-10-31|
-|[Python notes](posts/Python-notes.html)|2025-10-25|
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
 |[LaTeX](posts/LaTeX.html)|2025-10-18|
 |[Biome selection function](posts/Biome-selection-function.html)|2025-10-18|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2025-10-17|
 |[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
-|[Git](posts/Git.html)|2025-08-19|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
