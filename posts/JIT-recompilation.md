@@ -1,14 +1,15 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-05-22
+date: 2026-05-25
 title: "JIT / recompilation"
 unlisted: true
 ---
 
 ### JIT libraries
 
-- [Xbyak](https://github.com/herumi/xbyak) looks amazing (x86)
+- [Xbyak](https://github.com/herumi/xbyak) (x86)
+- [oaknut](https://github.com/merryhime/oaknut) (AArch64)
 - LLVM: [ORC](https://llvm.org/docs/ORCv2.html)
 - GCC: libgccjit
 - Might be also useful: libunwind
@@ -17,7 +18,8 @@ unlisted: true
 
 - [Cranelift](https://github.com/bytecodealliance/cranelift-jit-demo)
 - <http://themaister.net/blog/2019/01/27/an-unusual-recompiler-experiment-mips-to-llvm-ir-part-1/>
-- ARM: Citra, Yuzu, EKA2L1 (all the same, for x86_64 & ARM64)
+- ARM: Citra, Yuzu, EKA2L1 and others:
+  [dynarmic](https://github.com/lioncash/dynarmic)
 - LuaJIT's DynASM; great writeup: <https://github.com/sysprog21/jitboy>
 - PCSX2
   <https://github.com/PCSX2/pcsx2/blob/master/pcsx2/x86/microVU_Compile.inl>

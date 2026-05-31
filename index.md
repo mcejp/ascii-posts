@@ -13,12 +13,14 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Networking gear](posts/Networking-gear.html)|2026-05-30|
+|[JIT / recompilation](posts/JIT-recompilation.html)|2026-05-25|
+|[Sysadmin tools](posts/Sysadmin-tools.html)|2026-05-24|
 |[Git](posts/Git.html)|2026-05-17|
 |[Python notes](posts/Python-notes.html)|2026-05-14|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-05-12|
 |[Libraries](posts/Libraries.html)|2026-05-05|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-04-24|
-|[Networking gear](posts/Networking-gear.html)|2026-04-24|
 |[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
 |[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
@@ -45,10 +47,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[STAK: Tracking result arity in compiler](posts/STAK-Tracking-result-arity-in-compiler.html)|2025-10-19|
 |[LaTeX](posts/LaTeX.html)|2025-10-18|
 |[Biome selection function](posts/Biome-selection-function.html)|2025-10-18|
-|[Sysadmin tools](posts/Sysadmin-tools.html)|2025-10-17|
 |[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
-|[JIT / recompilation](posts/JIT-recompilation.html)|2025-05-22|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|

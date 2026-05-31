@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-10-17
+date: 2026-05-24
 title: "Sysadmin tools"
 unlisted: true
 ---
@@ -12,3 +12,5 @@ netstat alternative to show listening sockets and their processes:
 better `top`: `btop`
 
 `top` for I/O: `iotop` (disk I/O), `iftop` (network I/O)
+
+disk partitioning TUI: `cfdisk`
