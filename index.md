@@ -13,6 +13,10 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[FPGA notes](posts/FPGA-notes.html)|2026-06-07|
+|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-06-07|
+|[FPGA IP cores](posts/FPGA-IP-cores.html)|2026-06-07|
+|[ffmpeg](posts/ffmpeg.html)|2026-06-06|
 |[Networking gear](posts/Networking-gear.html)|2026-05-30|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2026-05-25|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2026-05-24|
@@ -20,7 +24,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Python notes](posts/Python-notes.html)|2026-05-14|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-05-12|
 |[Libraries](posts/Libraries.html)|2026-05-05|
-|[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-04-24|
 |[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
 |[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
@@ -28,7 +31,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-03-04|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
-|[ffmpeg](posts/ffmpeg.html)|2025-12-28|
 |[Computational geometry](posts/Computational-geometry.html)|2025-12-26|
 |[Marching squares](posts/Marching-squares.html)|2025-12-26|
 |[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|
@@ -57,7 +59,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
 |[ACL / Access Control Lists](posts/ACL-Access-Control-Lists.html)|2025-03-24|
 |[Random interesting GitHub projects](posts/Random-interesting-GitHub-projects.html)|2025-03-16|
-|[USB in FPGA](posts/USB-in-FPGA.html)|2025-03-14|
 |[Embedded filesystems & databases](posts/Embedded-filesystems-&-databases.html)|2025-03-14|
 |[Kernel driver development](posts/Kernel-driver-development.html)|2025-03-14|
 |[Monorepo](posts/Monorepo.html)|2025-03-14|

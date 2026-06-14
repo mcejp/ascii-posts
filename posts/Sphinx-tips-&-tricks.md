@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-04-24
+date: 2026-06-07
 title: "Sphinx tips & tricks"
 unlisted: true
 ---
@@ -44,16 +44,16 @@ Q: Example of Sphinx-\>GitHub Pages CI?
 
 ``` yaml
 docs-build:
-  image: ...
+  image: python:3.14
   needs: []
   script:
-  - ...
+    - pip install -U furo sphinx
+    - sphinx-build -b html doc public
   artifacts:
     paths:
     - public
 
 pages:
-  image: ...
   needs: [docs-build]
   script:
   - echo Deploying Pages
