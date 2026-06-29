@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Earth/World datasets](posts/Earth-World-datasets.html)|2026-06-24|
 |[FPGA notes](posts/FPGA-notes.html)|2026-06-07|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-06-07|
 |[FPGA IP cores](posts/FPGA-IP-cores.html)|2026-06-07|
@@ -30,7 +31,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[C++ notes](posts/C++-notes.html)|2026-03-28|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-03-04|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
-|[Earth/World datasets](posts/Earth-World-datasets.html)|2026-01-01|
 |[Computational geometry](posts/Computational-geometry.html)|2025-12-26|
 |[Marching squares](posts/Marching-squares.html)|2025-12-26|
 |[What is a good API for a function cache?](posts/What-is-a-good-API-for-a-function-cache-.html)|2025-12-26|

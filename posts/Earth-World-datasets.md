@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-01-01
+date: 2026-06-24
 title: "Earth/World datasets"
 unlisted: true
 ---
