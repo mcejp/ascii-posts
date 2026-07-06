@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-11-07
+date: 2026-07-02
 title: "Hylang"
 unlisted: true
 ---
@@ -82,6 +82,8 @@ See
 ### Q: 2 or 4 spaces for indent?
 
 A: Official repo uses 2
+
+Also, 2 blank lines between top-level declarations
 
 ### Q: Group imports (use single `import` form)?
 
