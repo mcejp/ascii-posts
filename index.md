@@ -13,6 +13,7 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[JIT / recompilation](posts/JIT-recompilation.html)|2026-07-20|
 |[Hylang](posts/Hylang.html)|2026-07-02|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-06-24|
 |[FPGA notes](posts/FPGA-notes.html)|2026-06-07|
@@ -20,7 +21,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[FPGA IP cores](posts/FPGA-IP-cores.html)|2026-06-07|
 |[ffmpeg](posts/ffmpeg.html)|2026-06-06|
 |[Networking gear](posts/Networking-gear.html)|2026-05-30|
-|[JIT / recompilation](posts/JIT-recompilation.html)|2026-05-25|
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2026-05-24|
 |[Git](posts/Git.html)|2026-05-17|
 |[Python notes](posts/Python-notes.html)|2026-05-14|

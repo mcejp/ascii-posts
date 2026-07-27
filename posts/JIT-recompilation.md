@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-05-25
+date: 2026-07-20
 title: "JIT / recompilation"
 unlisted: true
 ---
@@ -26,6 +26,7 @@ unlisted: true
 - <https://wiki.mozilla.org/Tamarin:Tracing>
 - <https://github.com/pcercuei/lightrec>: MIPS-to-everything dynamic
   recompiler for PSX emulators
+- RISC-V: <https://github.com/LekKit/RVVM>
 - [NanoJIT](https://github.com/dibyendumajumdar/nanojit)? Unmaintained.
 
 ### x86_64-\>arm64 recompilation
