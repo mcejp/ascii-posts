@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-05-05
+date: 2026-08-18
 title: "Libraries"
 unlisted: true
 ---
@@ -12,6 +12,7 @@ unlisted: true
 |----|----|
 | Arbitrary precision floating point numbers | <https://bellard.org/libbf/> |
 | Audio (minimalist) | <https://github.com/mackron/miniaudio> |
+| Audio engine | <https://github.com/heyigor/miniBAE> |
 | Checked (overflow) arithmetic | <https://github.com/xiw/libo> |
 | ECMAScript (tiny) | <https://bellard.org/quickjs/> |
 | Fast I/O (to be reviewed) | <https://github.com/expnkx/fast_io> |

@@ -13,6 +13,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2026-08-19|
+|[Libraries](posts/Libraries.html)|2026-08-18|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-07-27|
 |[JIT / recompilation](posts/JIT-recompilation.html)|2026-07-20|
 |[Hylang](posts/Hylang.html)|2026-07-02|
@@ -25,7 +27,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Git](posts/Git.html)|2026-05-17|
 |[Python notes](posts/Python-notes.html)|2026-05-14|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-05-12|
-|[Libraries](posts/Libraries.html)|2026-05-05|
 |[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
 |[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
@@ -53,7 +54,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
-|[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2025-04-27|
 |[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|
 |[Diary: How to add a REPL to STAK](posts/Diary-How-to-add-a-REPL-to-STAK.html)|2025-04-15|
 |[Software auto-updating](posts/Software-auto-updating.html)|2025-04-14|
