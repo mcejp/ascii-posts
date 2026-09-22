@@ -13,6 +13,9 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[Software rasterizers](posts/Software-rasterizers.html)|2026-09-13|
+|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-09-10|
+|[Fish shell](posts/Fish-shell.html)|2026-09-06|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2026-08-19|
 |[Libraries](posts/Libraries.html)|2026-08-18|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-07-27|
@@ -26,10 +29,8 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[Sysadmin tools](posts/Sysadmin-tools.html)|2026-05-24|
 |[Git](posts/Git.html)|2026-05-17|
 |[Python notes](posts/Python-notes.html)|2026-05-14|
-|[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-05-12|
 |[Batch execution & dual-use Jupyter notebooks](posts/Batch-execution-&-dual-use-Jupyter-notebooks.html)|2026-04-14|
 |[Open-source software supply chain attacks](posts/Open-source-software-supply-chain-attacks.html)|2026-04-13|
-|[Software rasterizers](posts/Software-rasterizers.html)|2026-04-03|
 |[C++ notes](posts/C++-notes.html)|2026-03-28|
 |[Jim Keller talks and interviews](posts/Jim-Keller-talks-and-interviews.html)|2026-03-04|
 |[Python project bootstrapping](posts/Python-project-bootstrapping.html)|2026-01-31|
