@@ -1,12 +1,23 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-06-29
+date: 2026-10-24
 title: "Pocket 8086"
 unlisted: true
 ---
 
 Similar to: IBM PS/2 Model 30 (1987)
+
+| Aspect | Pocket 8086 | IBM PS/2 Model 30 (8530-002/021) |
+|----|----|----|
+| Introduced | 2024 | April 1987 |
+| CPU | NEC V30 (8086-compatible, with 80186 instructions), switchable 4.77/10 MHz | Intel 8086, 8 MHz |
+| RAM | 768 KB (640 KB base + 128 KB UMB) | 640 KB |
+| Bus / expansion | ISA expansion via a separate add-on card | Three 8-bit ISA slots |
+| Graphics | TVGA9000i VGA with 512 KB VRAM (replaceable card) | MCGA (VGA-like, but limited to 320×200 in 256 colors, 640×480 in mono) |
+| Display | Built-in 7" 800×480 IPS (one source says 6"), plus VGA out | External monitor required |
+| Audio | OPL3 (YMF262) FM sound | PC speaker only |
+| Storage | 512 MB CF card; USB mass storage | 3.5" 720 KB floppy; optional 20 MB hard disk |
 
 ### USB flash drive
 

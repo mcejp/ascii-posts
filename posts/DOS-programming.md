@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2025-12-26
+date: 2026-10-28
 title: "DOS programming"
 unlisted: true
 ---
@@ -104,3 +104,5 @@ Target operating system:
     NT              | __NT__
     Windows         | __WINDOWS__, _WINDOWS, __WINDOWS_386__
     Linux           | __LINUX__, __UNIX__
+
+NB: DJGPP doesn't define any of these, instead defining `__MSDOS__`.

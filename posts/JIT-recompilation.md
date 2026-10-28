@@ -1,7 +1,7 @@
 ---
 layout: post
 render_with_liquid: false
-date: 2026-07-20
+date: 2026-10-24
 title: "JIT / recompilation"
 unlisted: true
 ---
@@ -18,16 +18,23 @@ unlisted: true
 
 - [Cranelift](https://github.com/bytecodealliance/cranelift-jit-demo)
 - <http://themaister.net/blog/2019/01/27/an-unusual-recompiler-experiment-mips-to-llvm-ir-part-1/>
-- ARM: Citra, Yuzu, EKA2L1 and others:
-  [dynarmic](https://github.com/lioncash/dynarmic)
 - LuaJIT's DynASM; great writeup: <https://github.com/sysprog21/jitboy>
-- PCSX2
-  <https://github.com/PCSX2/pcsx2/blob/master/pcsx2/x86/microVU_Compile.inl>
 - <https://wiki.mozilla.org/Tamarin:Tracing>
 - <https://github.com/pcercuei/lightrec>: MIPS-to-everything dynamic
   recompiler for PSX emulators
 - RISC-V: <https://github.com/LekKit/RVVM>
 - [NanoJIT](https://github.com/dibyendumajumdar/nanojit)? Unmaintained.
+
+#### In emulators
+
+- Citra, Yuzu, EKA2L1 and others:
+  [dynarmic](https://github.com/lioncash/dynarmic) (ARM)
+- [nucleus](https://github.com/AlexAltea/nucleus/tree/master/nucleus/cpu)
+  (PowerPC)
+- [PCSX2](https://github.com/PCSX2/pcsx2/blob/master/pcsx2/x86/microVU_Compile.inl)
+- [redream](https://github.com/inolen/redream/tree/master/src/jit)
+- [xenia](https://github.com/xenia-project/xenia/tree/master/src/xenia/cpu)
+  (PowerPC)
 
 ### x86_64-\>arm64 recompilation
 

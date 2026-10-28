@@ -13,13 +13,15 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[&#x2B50; ASCII Posts](posts/ASCII-Posts.html)|2025-12-24|
 |[&#x2B50; Documenting projects](posts/Documenting-projects.html)|2025-08-23|
 |[&#x2B50; Making impactful presentations](posts/Making-impactful-presentations.html)|2024-01-19|
+|[DOS programming](posts/DOS-programming.html)|2026-10-28|
+|[JIT / recompilation](posts/JIT-recompilation.html)|2026-10-24|
+|[Pocket 8086](posts/Pocket-8086.html)|2026-10-24|
 |[Software rasterizers](posts/Software-rasterizers.html)|2026-09-13|
 |[Node-based programming, blueprints etc.](posts/Node-based-programming,-blueprints-etc.html)|2026-09-10|
 |[Fish shell](posts/Fish-shell.html)|2026-09-06|
 |[Implementing a GDB server](posts/Implementing-a-GDB-server.html)|2026-08-19|
 |[Libraries](posts/Libraries.html)|2026-08-18|
 |[Earth/World datasets](posts/Earth-World-datasets.html)|2026-07-27|
-|[JIT / recompilation](posts/JIT-recompilation.html)|2026-07-20|
 |[Hylang](posts/Hylang.html)|2026-07-02|
 |[FPGA notes](posts/FPGA-notes.html)|2026-06-07|
 |[Sphinx tips & tricks](posts/Sphinx-tips-&-tricks.html)|2026-06-07|
@@ -41,7 +43,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[JavaScript/ECMAScript implementations](posts/JavaScript-ECMAScript-implementations.html)|2025-12-26|
 |[CRON job logging & monitoring](posts/CRON-job-logging-&-monitoring.html)|2025-12-26|
 |[PDF manipulation](posts/PDF-manipulation.html)|2025-12-26|
-|[DOS programming](posts/DOS-programming.html)|2025-12-26|
 |[ASCII tree generators](posts/ASCII-tree-generators.html)|2025-12-04|
 |[ytdl-sub setup with Quadlet](posts/ytdl-sub-setup-with-Quadlet.html)|2025-12-04|
 |[Python cookbook](posts/Python-cookbook.html)|2025-12-03|
@@ -52,7 +53,6 @@ As such, there is absolutely no guarantee of accuracy or completeness :)
 |[LaTeX](posts/LaTeX.html)|2025-10-18|
 |[Biome selection function](posts/Biome-selection-function.html)|2025-10-18|
 |[Diary: TileVision entry point](posts/Diary-TileVision-entry-point.html)|2025-09-24|
-|[Pocket 8086](posts/Pocket-8086.html)|2025-06-29|
 |[Pattern: Detecting key press/release/hold](posts/Pattern-Detecting-key-press-release-hold.html)|2025-05-21|
 |[Diary: Framing in STAK listener protocol](posts/Diary-Framing-in-STAK-listener-protocol.html)|2025-04-27|
 |[Diary: Transformations in STAK](posts/Diary-Transformations-in-STAK.html)|2025-04-20|
