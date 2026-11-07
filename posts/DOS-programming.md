@@ -105,4 +105,5 @@ Target operating system:
     Windows         | __WINDOWS__, _WINDOWS, __WINDOWS_386__
     Linux           | __LINUX__, __UNIX__
 
-NB: DJGPP doesn't define any of these, instead defining `__MSDOS__`.
+NB: DJGPP in strict ISO mode (`-std=c11` etc.) doesn't define any of
+these, instead defining `__MSDOS__`.
